@@ -1,0 +1,17 @@
+[project]
+name = "gd-modules-version-1"
+version = "0.1.0"
+description = "Small proof-of-concept for diarization + Whisper alignment"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "torch",
+  "pyannote.audio",
+  "openai-whisper",
+  "python-dotenv",
+  "streamlit",
+  "spacy",
+  "sentence-transformers",
+  "scikit-learn",
+  "lexicalrichness",
+]

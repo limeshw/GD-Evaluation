@@ -1,0 +1,948 @@
+{
+  "speakers": [
+    "Rahul",
+    "Sneha",
+    "SPEAKER_C",
+    "Priya",
+    "Karen"
+  ],
+  "speaker_names": {
+    "SPEAKER_A": "Rahul",
+    "SPEAKER_B": "Sneha",
+    "SPEAKER_D": "Priya",
+    "SPEAKER_E": "Karen" 
+  },
+  "segments": [
+    {
+      "speaker": "Rahul",
+      "start": 0.0,
+      "end": 3.0,
+      "text": "I am Rahul. I would like to start the discussion.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 3.0,
+      "end": 8.0,
+      "text": "I think artificial intelligence is more of an opportunity than a threat to jobs.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 8.0,
+      "end": 15.0,
+      "text": "Of course, AI will replace certain repetitive jobs, but at the same time, it will create completely new categories of jobs.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 15.0,
+      "end": 22.0,
+      "text": "If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 22.0,
+      "end": 27.0,
+      "text": "So I don't think we should see AI only as something that takes away employment.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 27.0,
+      "end": 33.12,
+      "text": "Sneha here, I agree with Rahul to some extent, but I think the situation with AI is slightly",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 33.12,
+      "end": 34.96,
+      "text": "different.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 34.96,
+      "end": 40.08,
+      "text": "Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 40.08,
+      "end": 46.28,
+      "text": "tasks related to writing, coding, designing, analysis, customer support, even decision-making",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 46.28,
+      "end": 48.32,
+      "text": "to some extent.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 48.32,
+      "end": 53.0,
+      "text": "So the speed at which jobs can be affected might be much higher this time.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 53.0,
+      "end": 54.92,
+      "text": "A diffier here.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 54.92,
+      "end": 59.64,
+      "text": "I think we should first define what we mean by job replacement.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 59.64,
+      "end": 64.24,
+      "text": "Because in many cases AI is not completely replacing a person.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 64.24,
+      "end": 69.4,
+      "text": "It's actually reducing the number of people required to perform a particular task.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 69.4,
+      "end": 74.36,
+      "text": "For example, if a company previously needed 10 people for basic customer support, with",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 74.36,
+      "end": 77.6,
+      "text": "AI maybe they need 5 people.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 77.6,
+      "end": 84.08,
+      "text": "So technically jobs are not completely disappearing, but opportunities are definitely reducing.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Priya",
+      "start": 84.08,
+      "end": 86.08,
+      "text": "My name is Priya.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 86.08,
+      "end": 91.91999999999999,
+      "text": "I agree with that point, and I want to bring another aspect into the discussion.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 91.91999999999999,
+      "end": 96.39999999999999,
+      "text": "The biggest problem is not necessarily AI itself.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 96.39999999999999,
+      "end": 101.6,
+      "text": "The problem is whether people have the skills to work along with AI.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 101.6,
+      "end": 106.03999999999999,
+      "text": "Someone who doesn't upgrade their skills may lose their job, while someone who knows",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 106.04,
+      "end": 110.84,
+      "text": "how to use AI effectively may become more productive.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Karen",
+      "start": 110.84,
+      "end": 112.32000000000001,
+      "text": "Karen this side.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 112.32000000000001,
+      "end": 117.48,
+      "text": "I actually disagree with the idea that AI is mostly an opportunity.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 117.48,
+      "end": 122.12,
+      "text": "For highly skilled people, yes, it can be an opportunity.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 122.12,
+      "end": 125.96000000000001,
+      "text": "But think about people working in entry-level jobs.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 125.96000000000001,
+      "end": 132.3,
+      "text": "Suppose a fresher is hired as a content writer, junior developer, or data analyst.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 132.3,
+      "end": 137.62,
+      "text": "These are exactly the kinds of roles where companies are increasingly using AI tools.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 137.62,
+      "end": 141.3,
+      "text": "So where will freshers get their first experience?",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 141.3,
+      "end": 144.78,
+      "text": "That's a valid concern, especially for freshers.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 144.78,
+      "end": 150.42000000000002,
+      "text": "But I think companies will still need humans because AI generated output needs supervision.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 150.42000000000002,
+      "end": 153.5,
+      "text": "Take software development, for example.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 153.5,
+      "end": 157.94,
+      "text": "AI can generate code, but someone still needs to understand the requirements, review the",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 157.94,
+      "end": 161.58,
+      "text": "code, test it, and maintain the system.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Karen",
+      "start": 161.58,
+      "end": 164.18,
+      "text": "But that's exactly the problem.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 164.18,
+      "end": 169.72000000000003,
+      "text": "Earlier a company might hire 10 junior developers and 2 senior developers.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 169.72000000000003,
+      "end": 175.86,
+      "text": "If AI increases productivity, maybe they hire 3 junior developers instead of 10.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 175.86,
+      "end": 182.66000000000003,
+      "text": "So even if AI doesn't completely replace developers, it can reduce the number of available positions.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 182.66000000000003,
+      "end": 188.20000000000002,
+      "text": "Yes, but we also have to consider that AI itself is creating demand.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 188.2,
+      "end": 193.56,
+      "text": "We now have roles like AI engineers, machine learning engineers, prompt engineers, AI product",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 193.56,
+      "end": 198.28,
+      "text": "managers, AI safety researchers, data specialists.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 198.28,
+      "end": 203.79999999999998,
+      "text": "Five or ten years ago, some of these roles either didn't exist or were much smaller.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 203.79999999999998,
+      "end": 209.64,
+      "text": "But the number of new jobs may not necessarily be equal to the number of jobs lost.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 209.64,
+      "end": 210.64,
+      "text": "Absolutely.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 210.64,
+      "end": 214.76,
+      "text": "That's why I said it's not automatically positive.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 214.76,
+      "end": 218.07999999999998,
+      "text": "The transition period could be painful.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Priya",
+      "start": 218.08,
+      "end": 221.12,
+      "text": "And there is also an education gap.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 221.12,
+      "end": 229.20000000000002,
+      "text": "A student from a good college may have access to AI tools, courses, internships, and mentors.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 229.20000000000002,
+      "end": 234.32000000000002,
+      "text": "But someone from a smaller town may not have the same opportunities.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 234.32000000000002,
+      "end": 240.4,
+      "text": "So AI could potentially increase the gap between different sections of society.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 240.4,
+      "end": 245.12,
+      "text": "I think that's where governments and educational institutions have a role.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 245.12,
+      "end": 249.72,
+      "text": "Instead of trying to stop AI, they should focus on reskilling people.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Karen",
+      "start": 249.72,
+      "end": 253.92000000000002,
+      "text": "But reskilling sounds easier in theory than in reality.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 253.92000000000002,
+      "end": 258.44,
+      "text": "Imagine someone who has been working in a particular job for 15 years.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 258.44,
+      "end": 264.44,
+      "text": "Are we really expecting that person to suddenly learn machine learning or advance AI?",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 264.44,
+      "end": 268.04,
+      "text": "They don't necessarily need to learn machine learning.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 268.04,
+      "end": 270.34000000000003,
+      "text": "That's another misconception.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 270.34000000000003,
+      "end": 275.04,
+      "text": "If you're a salesperson, maybe you just need to learn how AI can help you analyze customers",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 275.04,
+      "end": 282.72,
+      "text": "or automate reports. If you're a graphic designer, you need to know how to use AI design tools.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Priya",
+      "start": 282.72,
+      "end": 289.44,
+      "text": "Reskilling should depend on the profession. Exactly. We shouldn't tell everyone, learn",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 289.44,
+      "end": 296.12,
+      "text": "AI or you will lose your job. The idea should be, learn how AI can improve the work you",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Karen",
+      "start": 296.12,
+      "end": 302.84000000000003,
+      "text": "already do. But companies might still prefer someone who can do the work with AI over someone",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Priya",
+      "start": 302.84,
+      "end": 311.56,
+      "text": "who can't. Of course. That's why individuals also have responsibility. We can't completely",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 311.56,
+      "end": 317.79999999999995,
+      "text": "depend on companies or governments. There's another issue I'd like to raise, quality.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 318.76,
+      "end": 323.08,
+      "text": "AI can generate content very quickly, but fast doesn't always mean good.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 323.96,
+      "end": 329.4,
+      "text": "There are problems with hallucinations, incorrect information, bias, and lack of context.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 329.4,
+      "end": 335.0,
+      "text": "Yes, and that's why human judgment remains important.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Karen",
+      "start": 335.0,
+      "end": 337.2,
+      "text": "But how much human judgment?",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 337.2,
+      "end": 343.52,
+      "text": "If AI becomes accurate enough, companies will naturally try to reduce costs.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 343.52,
+      "end": 346.59999999999997,
+      "text": "Companies always try to reduce costs.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 346.59999999999997,
+      "end": 350.06,
+      "text": "That's not something that started with AI.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 350.06,
+      "end": 353.0,
+      "text": "Automation has been doing that for decades.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Karen",
+      "start": 353.0,
+      "end": 357.76,
+      "text": "But AI makes automation available to almost every industry.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 357.76,
+      "end": 358.76,
+      "text": "True.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 358.76,
+      "end": 362.76,
+      "text": "That's why I think we shouldn't underestimate the impact.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 362.76,
+      "end": 365.76,
+      "text": "I don't think anyone is underestimating it.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 365.76,
+      "end": 369.76,
+      "text": "I'm saying the impact will depend on how we manage the transition.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Priya",
+      "start": 369.76,
+      "end": 372.76,
+      "text": "Can I add something here?",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 372.76,
+      "end": 375.76,
+      "text": "We are mostly discussing white collar jobs.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 375.76,
+      "end": 382.76,
+      "text": "What about jobs like teachers, doctors, lawyers, journalists, and managers?",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 382.76,
+      "end": 392.76,
+      "text": "AI can assist them but completely replacing them is much more complicated because these professions involve trust and human interaction.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 392.76,
+      "end": 395.76,
+      "text": "I agree, especially in healthcare.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 395.76,
+      "end": 404.76,
+      "text": "You may have an AI system that can detect a disease from an image, but a patient still wants a doctor to explain what's happening and what treatment options they have.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Karen",
+      "start": 404.76,
+      "end": 409.76,
+      "text": "But eventually people might trust AI if it becomes more accurate than humans.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Priya",
+      "start": 409.76,
+      "end": 412.76,
+      "text": "Maybe for certain decisions.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 412.76,
+      "end": 416.76,
+      "text": "But trust isn't only about accuracy.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 416.76,
+      "end": 421.76,
+      "text": "Suppose you're sitting in a hospital and you've just received bad news.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 421.76,
+      "end": 425.76,
+      "text": "You don't want a machine to simply give you a probability.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 425.76,
+      "end": 429.76,
+      "text": "You want someone who understands your emotions.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 429.76,
+      "end": 432.76,
+      "text": "That's a very important distinction.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 432.76,
+      "end": 436.76,
+      "text": "Some jobs aren't valuable only because of the task they perform.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 436.76,
+      "end": 440.76,
+      "text": "They're valuable because of the human relationship involved.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 440.76,
+      "end": 442.76,
+      "text": "Exactly.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 442.76,
+      "end": 450.76,
+      "text": "And that could actually make human skills more valuable, communication, empathy, leadership, creativity, negotiation.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 450.76,
+      "end": 454.76,
+      "text": "So maybe the real question is in whether AI will replace humans,",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 454.76,
+      "end": 458.76,
+      "text": "but which humans will be replaced by humans who know how to use AI?",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Karen",
+      "start": 458.76,
+      "end": 462.76,
+      "text": "That's a good statement, but I would modify it slightly.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 462.76,
+      "end": 467.76,
+      "text": "People who know how to use AI will probably have an advantage over people who don't.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 467.76,
+      "end": 472.76,
+      "text": "But that doesn't mean everyone can simply learn one AI tool and be safe.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 472.76,
+      "end": 475.76,
+      "text": "Yes, because tools keep changing.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 475.76,
+      "end": 480.76,
+      "text": "Today you learn one tool, tomorrow another one becomes popular.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 480.76,
+      "end": 485.76,
+      "text": "So instead of learning only tools, people should develop fundamentals.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 485.76,
+      "end": 487.76,
+      "text": "Completely agree.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 487.76,
+      "end": 493.76,
+      "text": "For example, a programmer shouldn't only learn how to use an AI coding assistant.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 493.76,
+      "end": 500.76,
+      "text": "They should understand programming concepts, system design, databases, debugging, and architecture.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 500.76,
+      "end": 505.76,
+      "text": "Then AI becomes a productivity tool rather than something they completely depend on.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Priya",
+      "start": 505.76,
+      "end": 508.76,
+      "text": "The same applies to students.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 508.76,
+      "end": 513.76,
+      "text": "If students use AI to complete every assignment without understanding anything,",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 513.76,
+      "end": 518.76,
+      "text": "they make it good marks but eventually struggle in an actual job.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Karen",
+      "start": 518.76,
+      "end": 520.76,
+      "text": "That's already happening.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 520.76,
+      "end": 526.76,
+      "text": "Yes, and that's actually one of the threats of AI that doesn't get enough attention, the dependency problem.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 526.76,
+      "end": 530.76,
+      "text": "I want to bring up one more point, productivity.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 530.76,
+      "end": 535.76,
+      "text": "Suppose AI allows one employee to do the work of three employees.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 535.76,
+      "end": 542.76,
+      "text": "Ideally, companies could use that extra productivity to create new products and expand their business.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Karen",
+      "start": 542.76,
+      "end": 546.76,
+      "text": "Ideally, is the important word there.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Karen",
+      "start": 546.76,
+      "end": 551.76,
+      "text": "Companies may simply keep one person and remove two positions.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 551.76,
+      "end": 558.76,
+      "text": "That's possible, but increased productivity can also reduce costs and create new businesses and jobs.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Karen",
+      "start": 558.76,
+      "end": 564.76,
+      "text": "True, but the transition can still be difficult for people who lose their jobs.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Priya",
+      "start": 564.76,
+      "end": 567.76,
+      "text": "I think both points are valid.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Priya",
+      "start": 567.76,
+      "end": 572.76,
+      "text": "That's why rest-killing and proper support are important.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 572.76,
+      "end": 578.76,
+      "text": "And for students, the best approach is to learn how to work with AI rather than compete against it.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 578.76,
+      "end": 584.76,
+      "text": "So I think we can say that AI is neither completely an opportunity nor completely a threat.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 584.76,
+      "end": 587.76,
+      "text": "It depends on how we adapt to it.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "SPEAKER_C",
+      "start": 587.76,
+      "end": 594.76,
+      "text": "Yes. People who continuously improve their skills will have a better chance of benefiting from AI.",
+      "speaker_id": "SPEAKER_C"
+    },
+    {
+      "speaker": "Karen",
+      "start": 594.76,
+      "end": 599.76,
+      "text": "And companies and governments also need to support people during this transition.",
+      "speaker_id": "SPEAKER_E"
+    },
+    {
+      "speaker": "Priya",
+      "start": 599.76,
+      "end": 609.76,
+      "text": "Exactly. AI will definitely change the job market, but if we prepare properly, the benefits can outweigh the risks.",
+      "speaker_id": "SPEAKER_D"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 609.76,
+      "end": 618.76,
+      "text": "I agree. So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 618.76,
+      "end": 620.76,
+      "text": "I agree.",
+      "speaker_id": "SPEAKER_B"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 620.76,
+      "end": 622.76,
+      "text": "Same here.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Rahul",
+      "start": 622.76,
+      "end": 624.76,
+      "text": "Agreed.",
+      "speaker_id": "SPEAKER_A"
+    },
+    {
+      "speaker": "Sneha",
+      "start": 624.76,
+      "end": 626.76,
+      "text": "Yes.",
+      "speaker_id": "SPEAKER_B"
+    }
+  ]
+}

@@ -1,0 +1,1966 @@
+{
+  "speakers": {
+    "Rahul": {
+      "participant_id": "P1",
+      "name": "Rahul",
+      "speaker_id": "SPEAKER_A",
+      "segment_count": 22,
+      "total_speaking_time": 107.2,
+      "full_text": "I am Rahul. I would like to start the discussion. I think artificial intelligence is more of an opportunity than a threat to jobs. Of course, AI will replace certain repetitive jobs, but at the same time, it will create completely new categories of jobs. If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created. So I don't think we should see AI only as something that takes away employment. That's a valid concern, especially for freshers. But I think companies will still need humans because AI generated output needs supervision. Take software development, for example. AI can generate code, but someone still needs to understand the requirements, review the code, test it, and maintain the system. I think that's where governments and educational institutions have a role. Instead of trying to stop AI, they should focus on reskilling people. Yes, and that's why human judgment remains important. I agree, especially in healthcare. You may have an AI system that can detect a disease from an image, but a patient still wants a doctor to explain what's happening and what treatment options they have. So maybe the real question is in whether AI will replace humans, but which humans will be replaced by humans who know how to use AI? Yes, and that's actually one of the threats of AI that doesn't get enough attention, the dependency problem. And for students, the best approach is to learn how to work with AI rather than compete against it. I agree. So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans. Same here. Agreed.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "text": "I am Rahul. I would like to start the discussion."
+        },
+        {
+          "start": 3.0,
+          "end": 8.0,
+          "text": "I think artificial intelligence is more of an opportunity than a threat to jobs."
+        },
+        {
+          "start": 8.0,
+          "end": 15.0,
+          "text": "Of course, AI will replace certain repetitive jobs, but at the same time, it will create completely new categories of jobs."
+        },
+        {
+          "start": 15.0,
+          "end": 22.0,
+          "text": "If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created."
+        },
+        {
+          "start": 22.0,
+          "end": 27.0,
+          "text": "So I don't think we should see AI only as something that takes away employment."
+        },
+        {
+          "start": 141.3,
+          "end": 144.78,
+          "text": "That's a valid concern, especially for freshers."
+        },
+        {
+          "start": 144.78,
+          "end": 150.42000000000002,
+          "text": "But I think companies will still need humans because AI generated output needs supervision."
+        },
+        {
+          "start": 150.42000000000002,
+          "end": 153.5,
+          "text": "Take software development, for example."
+        },
+        {
+          "start": 153.5,
+          "end": 157.94,
+          "text": "AI can generate code, but someone still needs to understand the requirements, review the"
+        },
+        {
+          "start": 157.94,
+          "end": 161.58,
+          "text": "code, test it, and maintain the system."
+        },
+        {
+          "start": 240.4,
+          "end": 245.12,
+          "text": "I think that's where governments and educational institutions have a role."
+        },
+        {
+          "start": 245.12,
+          "end": 249.72,
+          "text": "Instead of trying to stop AI, they should focus on reskilling people."
+        },
+        {
+          "start": 329.4,
+          "end": 335.0,
+          "text": "Yes, and that's why human judgment remains important."
+        },
+        {
+          "start": 392.76,
+          "end": 395.76,
+          "text": "I agree, especially in healthcare."
+        },
+        {
+          "start": 395.76,
+          "end": 404.76,
+          "text": "You may have an AI system that can detect a disease from an image, but a patient still wants a doctor to explain what's happening and what treatment options they have."
+        },
+        {
+          "start": 450.76,
+          "end": 454.76,
+          "text": "So maybe the real question is in whether AI will replace humans,"
+        },
+        {
+          "start": 454.76,
+          "end": 458.76,
+          "text": "but which humans will be replaced by humans who know how to use AI?"
+        },
+        {
+          "start": 520.76,
+          "end": 526.76,
+          "text": "Yes, and that's actually one of the threats of AI that doesn't get enough attention, the dependency problem."
+        },
+        {
+          "start": 572.76,
+          "end": 578.76,
+          "text": "And for students, the best approach is to learn how to work with AI rather than compete against it."
+        },
+        {
+          "start": 609.76,
+          "end": 618.76,
+          "text": "I agree. So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans."
+        },
+        {
+          "start": 620.76,
+          "end": 622.76,
+          "text": "Same here."
+        },
+        {
+          "start": 622.76,
+          "end": 624.76,
+          "text": "Agreed."
+        }
+      ],
+      "audio": {
+        "source_file": "audio/gd_recording.mp3",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 3.0
+          },
+          {
+            "start": 3.0,
+            "end": 8.0
+          },
+          {
+            "start": 8.0,
+            "end": 15.0
+          },
+          {
+            "start": 15.0,
+            "end": 22.0
+          },
+          {
+            "start": 22.0,
+            "end": 27.0
+          },
+          {
+            "start": 141.3,
+            "end": 144.78
+          },
+          {
+            "start": 144.78,
+            "end": 150.42000000000002
+          },
+          {
+            "start": 150.42000000000002,
+            "end": 153.5
+          },
+          {
+            "start": 153.5,
+            "end": 157.94
+          },
+          {
+            "start": 157.94,
+            "end": 161.58
+          },
+          {
+            "start": 240.4,
+            "end": 245.12
+          },
+          {
+            "start": 245.12,
+            "end": 249.72
+          },
+          {
+            "start": 329.4,
+            "end": 335.0
+          },
+          {
+            "start": 392.76,
+            "end": 395.76
+          },
+          {
+            "start": 395.76,
+            "end": 404.76
+          },
+          {
+            "start": 450.76,
+            "end": 454.76
+          },
+          {
+            "start": 454.76,
+            "end": 458.76
+          },
+          {
+            "start": 520.76,
+            "end": 526.76
+          },
+          {
+            "start": 572.76,
+            "end": 578.76
+          },
+          {
+            "start": 609.76,
+            "end": 618.76
+          },
+          {
+            "start": 620.76,
+            "end": 622.76
+          },
+          {
+            "start": 622.76,
+            "end": 624.76
+          }
+        ]
+      },
+      "transcript": {
+        "full_text": "I am Rahul. I would like to start the discussion. I think artificial intelligence is more of an opportunity than a threat to jobs. Of course, AI will replace certain repetitive jobs, but at the same time, it will create completely new categories of jobs. If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created. So I don't think we should see AI only as something that takes away employment. That's a valid concern, especially for freshers. But I think companies will still need humans because AI generated output needs supervision. Take software development, for example. AI can generate code, but someone still needs to understand the requirements, review the code, test it, and maintain the system. I think that's where governments and educational institutions have a role. Instead of trying to stop AI, they should focus on reskilling people. Yes, and that's why human judgment remains important. I agree, especially in healthcare. You may have an AI system that can detect a disease from an image, but a patient still wants a doctor to explain what's happening and what treatment options they have. So maybe the real question is in whether AI will replace humans, but which humans will be replaced by humans who know how to use AI? Yes, and that's actually one of the threats of AI that doesn't get enough attention, the dependency problem. And for students, the best approach is to learn how to work with AI rather than compete against it. I agree. So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans. Same here. Agreed.",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 3.0,
+            "text": "I am Rahul. I would like to start the discussion."
+          },
+          {
+            "start": 3.0,
+            "end": 8.0,
+            "text": "I think artificial intelligence is more of an opportunity than a threat to jobs."
+          },
+          {
+            "start": 8.0,
+            "end": 15.0,
+            "text": "Of course, AI will replace certain repetitive jobs, but at the same time, it will create completely new categories of jobs."
+          },
+          {
+            "start": 15.0,
+            "end": 22.0,
+            "text": "If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created."
+          },
+          {
+            "start": 22.0,
+            "end": 27.0,
+            "text": "So I don't think we should see AI only as something that takes away employment."
+          },
+          {
+            "start": 141.3,
+            "end": 144.78,
+            "text": "That's a valid concern, especially for freshers."
+          },
+          {
+            "start": 144.78,
+            "end": 150.42000000000002,
+            "text": "But I think companies will still need humans because AI generated output needs supervision."
+          },
+          {
+            "start": 150.42000000000002,
+            "end": 153.5,
+            "text": "Take software development, for example."
+          },
+          {
+            "start": 153.5,
+            "end": 157.94,
+            "text": "AI can generate code, but someone still needs to understand the requirements, review the"
+          },
+          {
+            "start": 157.94,
+            "end": 161.58,
+            "text": "code, test it, and maintain the system."
+          },
+          {
+            "start": 240.4,
+            "end": 245.12,
+            "text": "I think that's where governments and educational institutions have a role."
+          },
+          {
+            "start": 245.12,
+            "end": 249.72,
+            "text": "Instead of trying to stop AI, they should focus on reskilling people."
+          },
+          {
+            "start": 329.4,
+            "end": 335.0,
+            "text": "Yes, and that's why human judgment remains important."
+          },
+          {
+            "start": 392.76,
+            "end": 395.76,
+            "text": "I agree, especially in healthcare."
+          },
+          {
+            "start": 395.76,
+            "end": 404.76,
+            "text": "You may have an AI system that can detect a disease from an image, but a patient still wants a doctor to explain what's happening and what treatment options they have."
+          },
+          {
+            "start": 450.76,
+            "end": 454.76,
+            "text": "So maybe the real question is in whether AI will replace humans,"
+          },
+          {
+            "start": 454.76,
+            "end": 458.76,
+            "text": "but which humans will be replaced by humans who know how to use AI?"
+          },
+          {
+            "start": 520.76,
+            "end": 526.76,
+            "text": "Yes, and that's actually one of the threats of AI that doesn't get enough attention, the dependency problem."
+          },
+          {
+            "start": 572.76,
+            "end": 578.76,
+            "text": "And for students, the best approach is to learn how to work with AI rather than compete against it."
+          },
+          {
+            "start": 609.76,
+            "end": 618.76,
+            "text": "I agree. So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans."
+          },
+          {
+            "start": 620.76,
+            "end": 622.76,
+            "text": "Same here."
+          },
+          {
+            "start": 622.76,
+            "end": 624.76,
+            "text": "Agreed."
+          }
+        ]
+      }
+    },
+    "Sneha": {
+      "participant_id": "P2",
+      "name": "Sneha",
+      "speaker_id": "SPEAKER_B",
+      "segment_count": 29,
+      "total_speaking_time": 128.58,
+      "full_text": "Sneha here, I agree with Rahul to some extent, but I think the situation with AI is slightly different. Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform tasks related to writing, coding, designing, analysis, customer support, even decision-making to some extent. So the speed at which jobs can be affected might be much higher this time. Yes, but we also have to consider that AI itself is creating demand. We now have roles like AI engineers, machine learning engineers, prompt engineers, AI product managers, AI safety researchers, data specialists. Five or ten years ago, some of these roles either didn't exist or were much smaller. Absolutely. That's why I said it's not automatically positive. The transition period could be painful. depend on companies or governments. There's another issue I'd like to raise, quality. AI can generate content very quickly, but fast doesn't always mean good. There are problems with hallucinations, incorrect information, bias, and lack of context. I don't think anyone is underestimating it. I'm saying the impact will depend on how we manage the transition. Exactly. And that could actually make human skills more valuable, communication, empathy, leadership, creativity, negotiation. Completely agree. For example, a programmer shouldn't only learn how to use an AI coding assistant. They should understand programming concepts, system design, databases, debugging, and architecture. Then AI becomes a productivity tool rather than something they completely depend on. That's possible, but increased productivity can also reduce costs and create new businesses and jobs. So I think we can say that AI is neither completely an opportunity nor completely a threat. It depends on how we adapt to it. I agree. Yes.",
+      "segments": [
+        {
+          "start": 27.0,
+          "end": 33.12,
+          "text": "Sneha here, I agree with Rahul to some extent, but I think the situation with AI is slightly"
+        },
+        {
+          "start": 33.12,
+          "end": 34.96,
+          "text": "different."
+        },
+        {
+          "start": 34.96,
+          "end": 40.08,
+          "text": "Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform"
+        },
+        {
+          "start": 40.08,
+          "end": 46.28,
+          "text": "tasks related to writing, coding, designing, analysis, customer support, even decision-making"
+        },
+        {
+          "start": 46.28,
+          "end": 48.32,
+          "text": "to some extent."
+        },
+        {
+          "start": 48.32,
+          "end": 53.0,
+          "text": "So the speed at which jobs can be affected might be much higher this time."
+        },
+        {
+          "start": 182.66000000000003,
+          "end": 188.20000000000002,
+          "text": "Yes, but we also have to consider that AI itself is creating demand."
+        },
+        {
+          "start": 188.2,
+          "end": 193.56,
+          "text": "We now have roles like AI engineers, machine learning engineers, prompt engineers, AI product"
+        },
+        {
+          "start": 193.56,
+          "end": 198.28,
+          "text": "managers, AI safety researchers, data specialists."
+        },
+        {
+          "start": 198.28,
+          "end": 203.79999999999998,
+          "text": "Five or ten years ago, some of these roles either didn't exist or were much smaller."
+        },
+        {
+          "start": 209.64,
+          "end": 210.64,
+          "text": "Absolutely."
+        },
+        {
+          "start": 210.64,
+          "end": 214.76,
+          "text": "That's why I said it's not automatically positive."
+        },
+        {
+          "start": 214.76,
+          "end": 218.07999999999998,
+          "text": "The transition period could be painful."
+        },
+        {
+          "start": 311.56,
+          "end": 317.79999999999995,
+          "text": "depend on companies or governments. There's another issue I'd like to raise, quality."
+        },
+        {
+          "start": 318.76,
+          "end": 323.08,
+          "text": "AI can generate content very quickly, but fast doesn't always mean good."
+        },
+        {
+          "start": 323.96,
+          "end": 329.4,
+          "text": "There are problems with hallucinations, incorrect information, bias, and lack of context."
+        },
+        {
+          "start": 362.76,
+          "end": 365.76,
+          "text": "I don't think anyone is underestimating it."
+        },
+        {
+          "start": 365.76,
+          "end": 369.76,
+          "text": "I'm saying the impact will depend on how we manage the transition."
+        },
+        {
+          "start": 440.76,
+          "end": 442.76,
+          "text": "Exactly."
+        },
+        {
+          "start": 442.76,
+          "end": 450.76,
+          "text": "And that could actually make human skills more valuable, communication, empathy, leadership, creativity, negotiation."
+        },
+        {
+          "start": 485.76,
+          "end": 487.76,
+          "text": "Completely agree."
+        },
+        {
+          "start": 487.76,
+          "end": 493.76,
+          "text": "For example, a programmer shouldn't only learn how to use an AI coding assistant."
+        },
+        {
+          "start": 493.76,
+          "end": 500.76,
+          "text": "They should understand programming concepts, system design, databases, debugging, and architecture."
+        },
+        {
+          "start": 500.76,
+          "end": 505.76,
+          "text": "Then AI becomes a productivity tool rather than something they completely depend on."
+        },
+        {
+          "start": 551.76,
+          "end": 558.76,
+          "text": "That's possible, but increased productivity can also reduce costs and create new businesses and jobs."
+        },
+        {
+          "start": 578.76,
+          "end": 584.76,
+          "text": "So I think we can say that AI is neither completely an opportunity nor completely a threat."
+        },
+        {
+          "start": 584.76,
+          "end": 587.76,
+          "text": "It depends on how we adapt to it."
+        },
+        {
+          "start": 618.76,
+          "end": 620.76,
+          "text": "I agree."
+        },
+        {
+          "start": 624.76,
+          "end": 626.76,
+          "text": "Yes."
+        }
+      ],
+      "audio": {
+        "source_file": "audio/gd_recording.mp3",
+        "segments": [
+          {
+            "start": 27.0,
+            "end": 33.12
+          },
+          {
+            "start": 33.12,
+            "end": 34.96
+          },
+          {
+            "start": 34.96,
+            "end": 40.08
+          },
+          {
+            "start": 40.08,
+            "end": 46.28
+          },
+          {
+            "start": 46.28,
+            "end": 48.32
+          },
+          {
+            "start": 48.32,
+            "end": 53.0
+          },
+          {
+            "start": 182.66000000000003,
+            "end": 188.20000000000002
+          },
+          {
+            "start": 188.2,
+            "end": 193.56
+          },
+          {
+            "start": 193.56,
+            "end": 198.28
+          },
+          {
+            "start": 198.28,
+            "end": 203.79999999999998
+          },
+          {
+            "start": 209.64,
+            "end": 210.64
+          },
+          {
+            "start": 210.64,
+            "end": 214.76
+          },
+          {
+            "start": 214.76,
+            "end": 218.07999999999998
+          },
+          {
+            "start": 311.56,
+            "end": 317.79999999999995
+          },
+          {
+            "start": 318.76,
+            "end": 323.08
+          },
+          {
+            "start": 323.96,
+            "end": 329.4
+          },
+          {
+            "start": 362.76,
+            "end": 365.76
+          },
+          {
+            "start": 365.76,
+            "end": 369.76
+          },
+          {
+            "start": 440.76,
+            "end": 442.76
+          },
+          {
+            "start": 442.76,
+            "end": 450.76
+          },
+          {
+            "start": 485.76,
+            "end": 487.76
+          },
+          {
+            "start": 487.76,
+            "end": 493.76
+          },
+          {
+            "start": 493.76,
+            "end": 500.76
+          },
+          {
+            "start": 500.76,
+            "end": 505.76
+          },
+          {
+            "start": 551.76,
+            "end": 558.76
+          },
+          {
+            "start": 578.76,
+            "end": 584.76
+          },
+          {
+            "start": 584.76,
+            "end": 587.76
+          },
+          {
+            "start": 618.76,
+            "end": 620.76
+          },
+          {
+            "start": 624.76,
+            "end": 626.76
+          }
+        ]
+      },
+      "transcript": {
+        "full_text": "Sneha here, I agree with Rahul to some extent, but I think the situation with AI is slightly different. Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform tasks related to writing, coding, designing, analysis, customer support, even decision-making to some extent. So the speed at which jobs can be affected might be much higher this time. Yes, but we also have to consider that AI itself is creating demand. We now have roles like AI engineers, machine learning engineers, prompt engineers, AI product managers, AI safety researchers, data specialists. Five or ten years ago, some of these roles either didn't exist or were much smaller. Absolutely. That's why I said it's not automatically positive. The transition period could be painful. depend on companies or governments. There's another issue I'd like to raise, quality. AI can generate content very quickly, but fast doesn't always mean good. There are problems with hallucinations, incorrect information, bias, and lack of context. I don't think anyone is underestimating it. I'm saying the impact will depend on how we manage the transition. Exactly. And that could actually make human skills more valuable, communication, empathy, leadership, creativity, negotiation. Completely agree. For example, a programmer shouldn't only learn how to use an AI coding assistant. They should understand programming concepts, system design, databases, debugging, and architecture. Then AI becomes a productivity tool rather than something they completely depend on. That's possible, but increased productivity can also reduce costs and create new businesses and jobs. So I think we can say that AI is neither completely an opportunity nor completely a threat. It depends on how we adapt to it. I agree. Yes.",
+        "segments": [
+          {
+            "start": 27.0,
+            "end": 33.12,
+            "text": "Sneha here, I agree with Rahul to some extent, but I think the situation with AI is slightly"
+          },
+          {
+            "start": 33.12,
+            "end": 34.96,
+            "text": "different."
+          },
+          {
+            "start": 34.96,
+            "end": 40.08,
+            "text": "Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform"
+          },
+          {
+            "start": 40.08,
+            "end": 46.28,
+            "text": "tasks related to writing, coding, designing, analysis, customer support, even decision-making"
+          },
+          {
+            "start": 46.28,
+            "end": 48.32,
+            "text": "to some extent."
+          },
+          {
+            "start": 48.32,
+            "end": 53.0,
+            "text": "So the speed at which jobs can be affected might be much higher this time."
+          },
+          {
+            "start": 182.66000000000003,
+            "end": 188.20000000000002,
+            "text": "Yes, but we also have to consider that AI itself is creating demand."
+          },
+          {
+            "start": 188.2,
+            "end": 193.56,
+            "text": "We now have roles like AI engineers, machine learning engineers, prompt engineers, AI product"
+          },
+          {
+            "start": 193.56,
+            "end": 198.28,
+            "text": "managers, AI safety researchers, data specialists."
+          },
+          {
+            "start": 198.28,
+            "end": 203.79999999999998,
+            "text": "Five or ten years ago, some of these roles either didn't exist or were much smaller."
+          },
+          {
+            "start": 209.64,
+            "end": 210.64,
+            "text": "Absolutely."
+          },
+          {
+            "start": 210.64,
+            "end": 214.76,
+            "text": "That's why I said it's not automatically positive."
+          },
+          {
+            "start": 214.76,
+            "end": 218.07999999999998,
+            "text": "The transition period could be painful."
+          },
+          {
+            "start": 311.56,
+            "end": 317.79999999999995,
+            "text": "depend on companies or governments. There's another issue I'd like to raise, quality."
+          },
+          {
+            "start": 318.76,
+            "end": 323.08,
+            "text": "AI can generate content very quickly, but fast doesn't always mean good."
+          },
+          {
+            "start": 323.96,
+            "end": 329.4,
+            "text": "There are problems with hallucinations, incorrect information, bias, and lack of context."
+          },
+          {
+            "start": 362.76,
+            "end": 365.76,
+            "text": "I don't think anyone is underestimating it."
+          },
+          {
+            "start": 365.76,
+            "end": 369.76,
+            "text": "I'm saying the impact will depend on how we manage the transition."
+          },
+          {
+            "start": 440.76,
+            "end": 442.76,
+            "text": "Exactly."
+          },
+          {
+            "start": 442.76,
+            "end": 450.76,
+            "text": "And that could actually make human skills more valuable, communication, empathy, leadership, creativity, negotiation."
+          },
+          {
+            "start": 485.76,
+            "end": 487.76,
+            "text": "Completely agree."
+          },
+          {
+            "start": 487.76,
+            "end": 493.76,
+            "text": "For example, a programmer shouldn't only learn how to use an AI coding assistant."
+          },
+          {
+            "start": 493.76,
+            "end": 500.76,
+            "text": "They should understand programming concepts, system design, databases, debugging, and architecture."
+          },
+          {
+            "start": 500.76,
+            "end": 505.76,
+            "text": "Then AI becomes a productivity tool rather than something they completely depend on."
+          },
+          {
+            "start": 551.76,
+            "end": 558.76,
+            "text": "That's possible, but increased productivity can also reduce costs and create new businesses and jobs."
+          },
+          {
+            "start": 578.76,
+            "end": 584.76,
+            "text": "So I think we can say that AI is neither completely an opportunity nor completely a threat."
+          },
+          {
+            "start": 584.76,
+            "end": 587.76,
+            "text": "It depends on how we adapt to it."
+          },
+          {
+            "start": 618.76,
+            "end": 620.76,
+            "text": "I agree."
+          },
+          {
+            "start": 624.76,
+            "end": 626.76,
+            "text": "Yes."
+          }
+        ]
+      }
+    },
+    "SPEAKER_C": {
+      "participant_id": "P3",
+      "name": "SPEAKER_C",
+      "speaker_id": "SPEAKER_C",
+      "segment_count": 25,
+      "total_speaking_time": 111.68,
+      "full_text": "A diffier here. I think we should first define what we mean by job replacement. Because in many cases AI is not completely replacing a person. It's actually reducing the number of people required to perform a particular task. For example, if a company previously needed 10 people for basic customer support, with AI maybe they need 5 people. So technically jobs are not completely disappearing, but opportunities are definitely reducing. But the number of new jobs may not necessarily be equal to the number of jobs lost. They don't necessarily need to learn machine learning. That's another misconception. If you're a salesperson, maybe you just need to learn how AI can help you analyze customers or automate reports. If you're a graphic designer, you need to know how to use AI design tools. Companies always try to reduce costs. That's not something that started with AI. Automation has been doing that for decades. That's a very important distinction. Some jobs aren't valuable only because of the task they perform. They're valuable because of the human relationship involved. Yes, because tools keep changing. Today you learn one tool, tomorrow another one becomes popular. So instead of learning only tools, people should develop fundamentals. I want to bring up one more point, productivity. Suppose AI allows one employee to do the work of three employees. Ideally, companies could use that extra productivity to create new products and expand their business. Yes. People who continuously improve their skills will have a better chance of benefiting from AI.",
+      "segments": [
+        {
+          "start": 53.0,
+          "end": 54.92,
+          "text": "A diffier here."
+        },
+        {
+          "start": 54.92,
+          "end": 59.64,
+          "text": "I think we should first define what we mean by job replacement."
+        },
+        {
+          "start": 59.64,
+          "end": 64.24,
+          "text": "Because in many cases AI is not completely replacing a person."
+        },
+        {
+          "start": 64.24,
+          "end": 69.4,
+          "text": "It's actually reducing the number of people required to perform a particular task."
+        },
+        {
+          "start": 69.4,
+          "end": 74.36,
+          "text": "For example, if a company previously needed 10 people for basic customer support, with"
+        },
+        {
+          "start": 74.36,
+          "end": 77.6,
+          "text": "AI maybe they need 5 people."
+        },
+        {
+          "start": 77.6,
+          "end": 84.08,
+          "text": "So technically jobs are not completely disappearing, but opportunities are definitely reducing."
+        },
+        {
+          "start": 203.79999999999998,
+          "end": 209.64,
+          "text": "But the number of new jobs may not necessarily be equal to the number of jobs lost."
+        },
+        {
+          "start": 264.44,
+          "end": 268.04,
+          "text": "They don't necessarily need to learn machine learning."
+        },
+        {
+          "start": 268.04,
+          "end": 270.34000000000003,
+          "text": "That's another misconception."
+        },
+        {
+          "start": 270.34000000000003,
+          "end": 275.04,
+          "text": "If you're a salesperson, maybe you just need to learn how AI can help you analyze customers"
+        },
+        {
+          "start": 275.04,
+          "end": 282.72,
+          "text": "or automate reports. If you're a graphic designer, you need to know how to use AI design tools."
+        },
+        {
+          "start": 343.52,
+          "end": 346.59999999999997,
+          "text": "Companies always try to reduce costs."
+        },
+        {
+          "start": 346.59999999999997,
+          "end": 350.06,
+          "text": "That's not something that started with AI."
+        },
+        {
+          "start": 350.06,
+          "end": 353.0,
+          "text": "Automation has been doing that for decades."
+        },
+        {
+          "start": 429.76,
+          "end": 432.76,
+          "text": "That's a very important distinction."
+        },
+        {
+          "start": 432.76,
+          "end": 436.76,
+          "text": "Some jobs aren't valuable only because of the task they perform."
+        },
+        {
+          "start": 436.76,
+          "end": 440.76,
+          "text": "They're valuable because of the human relationship involved."
+        },
+        {
+          "start": 472.76,
+          "end": 475.76,
+          "text": "Yes, because tools keep changing."
+        },
+        {
+          "start": 475.76,
+          "end": 480.76,
+          "text": "Today you learn one tool, tomorrow another one becomes popular."
+        },
+        {
+          "start": 480.76,
+          "end": 485.76,
+          "text": "So instead of learning only tools, people should develop fundamentals."
+        },
+        {
+          "start": 526.76,
+          "end": 530.76,
+          "text": "I want to bring up one more point, productivity."
+        },
+        {
+          "start": 530.76,
+          "end": 535.76,
+          "text": "Suppose AI allows one employee to do the work of three employees."
+        },
+        {
+          "start": 535.76,
+          "end": 542.76,
+          "text": "Ideally, companies could use that extra productivity to create new products and expand their business."
+        },
+        {
+          "start": 587.76,
+          "end": 594.76,
+          "text": "Yes. People who continuously improve their skills will have a better chance of benefiting from AI."
+        }
+      ],
+      "audio": {
+        "source_file": "audio/gd_recording.mp3",
+        "segments": [
+          {
+            "start": 53.0,
+            "end": 54.92
+          },
+          {
+            "start": 54.92,
+            "end": 59.64
+          },
+          {
+            "start": 59.64,
+            "end": 64.24
+          },
+          {
+            "start": 64.24,
+            "end": 69.4
+          },
+          {
+            "start": 69.4,
+            "end": 74.36
+          },
+          {
+            "start": 74.36,
+            "end": 77.6
+          },
+          {
+            "start": 77.6,
+            "end": 84.08
+          },
+          {
+            "start": 203.79999999999998,
+            "end": 209.64
+          },
+          {
+            "start": 264.44,
+            "end": 268.04
+          },
+          {
+            "start": 268.04,
+            "end": 270.34000000000003
+          },
+          {
+            "start": 270.34000000000003,
+            "end": 275.04
+          },
+          {
+            "start": 275.04,
+            "end": 282.72
+          },
+          {
+            "start": 343.52,
+            "end": 346.59999999999997
+          },
+          {
+            "start": 346.59999999999997,
+            "end": 350.06
+          },
+          {
+            "start": 350.06,
+            "end": 353.0
+          },
+          {
+            "start": 429.76,
+            "end": 432.76
+          },
+          {
+            "start": 432.76,
+            "end": 436.76
+          },
+          {
+            "start": 436.76,
+            "end": 440.76
+          },
+          {
+            "start": 472.76,
+            "end": 475.76
+          },
+          {
+            "start": 475.76,
+            "end": 480.76
+          },
+          {
+            "start": 480.76,
+            "end": 485.76
+          },
+          {
+            "start": 526.76,
+            "end": 530.76
+          },
+          {
+            "start": 530.76,
+            "end": 535.76
+          },
+          {
+            "start": 535.76,
+            "end": 542.76
+          },
+          {
+            "start": 587.76,
+            "end": 594.76
+          }
+        ]
+      },
+      "transcript": {
+        "full_text": "A diffier here. I think we should first define what we mean by job replacement. Because in many cases AI is not completely replacing a person. It's actually reducing the number of people required to perform a particular task. For example, if a company previously needed 10 people for basic customer support, with AI maybe they need 5 people. So technically jobs are not completely disappearing, but opportunities are definitely reducing. But the number of new jobs may not necessarily be equal to the number of jobs lost. They don't necessarily need to learn machine learning. That's another misconception. If you're a salesperson, maybe you just need to learn how AI can help you analyze customers or automate reports. If you're a graphic designer, you need to know how to use AI design tools. Companies always try to reduce costs. That's not something that started with AI. Automation has been doing that for decades. That's a very important distinction. Some jobs aren't valuable only because of the task they perform. They're valuable because of the human relationship involved. Yes, because tools keep changing. Today you learn one tool, tomorrow another one becomes popular. So instead of learning only tools, people should develop fundamentals. I want to bring up one more point, productivity. Suppose AI allows one employee to do the work of three employees. Ideally, companies could use that extra productivity to create new products and expand their business. Yes. People who continuously improve their skills will have a better chance of benefiting from AI.",
+        "segments": [
+          {
+            "start": 53.0,
+            "end": 54.92,
+            "text": "A diffier here."
+          },
+          {
+            "start": 54.92,
+            "end": 59.64,
+            "text": "I think we should first define what we mean by job replacement."
+          },
+          {
+            "start": 59.64,
+            "end": 64.24,
+            "text": "Because in many cases AI is not completely replacing a person."
+          },
+          {
+            "start": 64.24,
+            "end": 69.4,
+            "text": "It's actually reducing the number of people required to perform a particular task."
+          },
+          {
+            "start": 69.4,
+            "end": 74.36,
+            "text": "For example, if a company previously needed 10 people for basic customer support, with"
+          },
+          {
+            "start": 74.36,
+            "end": 77.6,
+            "text": "AI maybe they need 5 people."
+          },
+          {
+            "start": 77.6,
+            "end": 84.08,
+            "text": "So technically jobs are not completely disappearing, but opportunities are definitely reducing."
+          },
+          {
+            "start": 203.79999999999998,
+            "end": 209.64,
+            "text": "But the number of new jobs may not necessarily be equal to the number of jobs lost."
+          },
+          {
+            "start": 264.44,
+            "end": 268.04,
+            "text": "They don't necessarily need to learn machine learning."
+          },
+          {
+            "start": 268.04,
+            "end": 270.34000000000003,
+            "text": "That's another misconception."
+          },
+          {
+            "start": 270.34000000000003,
+            "end": 275.04,
+            "text": "If you're a salesperson, maybe you just need to learn how AI can help you analyze customers"
+          },
+          {
+            "start": 275.04,
+            "end": 282.72,
+            "text": "or automate reports. If you're a graphic designer, you need to know how to use AI design tools."
+          },
+          {
+            "start": 343.52,
+            "end": 346.59999999999997,
+            "text": "Companies always try to reduce costs."
+          },
+          {
+            "start": 346.59999999999997,
+            "end": 350.06,
+            "text": "That's not something that started with AI."
+          },
+          {
+            "start": 350.06,
+            "end": 353.0,
+            "text": "Automation has been doing that for decades."
+          },
+          {
+            "start": 429.76,
+            "end": 432.76,
+            "text": "That's a very important distinction."
+          },
+          {
+            "start": 432.76,
+            "end": 436.76,
+            "text": "Some jobs aren't valuable only because of the task they perform."
+          },
+          {
+            "start": 436.76,
+            "end": 440.76,
+            "text": "They're valuable because of the human relationship involved."
+          },
+          {
+            "start": 472.76,
+            "end": 475.76,
+            "text": "Yes, because tools keep changing."
+          },
+          {
+            "start": 475.76,
+            "end": 480.76,
+            "text": "Today you learn one tool, tomorrow another one becomes popular."
+          },
+          {
+            "start": 480.76,
+            "end": 485.76,
+            "text": "So instead of learning only tools, people should develop fundamentals."
+          },
+          {
+            "start": 526.76,
+            "end": 530.76,
+            "text": "I want to bring up one more point, productivity."
+          },
+          {
+            "start": 530.76,
+            "end": 535.76,
+            "text": "Suppose AI allows one employee to do the work of three employees."
+          },
+          {
+            "start": 535.76,
+            "end": 542.76,
+            "text": "Ideally, companies could use that extra productivity to create new products and expand their business."
+          },
+          {
+            "start": 587.76,
+            "end": 594.76,
+            "text": "Yes. People who continuously improve their skills will have a better chance of benefiting from AI."
+          }
+        ]
+      }
+    },
+    "Priya": {
+      "participant_id": "P4",
+      "name": "Priya",
+      "speaker_id": "SPEAKER_D",
+      "segment_count": 28,
+      "total_speaking_time": 145.2,
+      "full_text": "My name is Priya. I agree with that point, and I want to bring another aspect into the discussion. The biggest problem is not necessarily AI itself. The problem is whether people have the skills to work along with AI. Someone who doesn't upgrade their skills may lose their job, while someone who knows how to use AI effectively may become more productive. And there is also an education gap. A student from a good college may have access to AI tools, courses, internships, and mentors. But someone from a smaller town may not have the same opportunities. So AI could potentially increase the gap between different sections of society. Reskilling should depend on the profession. Exactly. We shouldn't tell everyone, learn AI or you will lose your job. The idea should be, learn how AI can improve the work you who can't. Of course. That's why individuals also have responsibility. We can't completely Can I add something here? We are mostly discussing white collar jobs. What about jobs like teachers, doctors, lawyers, journalists, and managers? AI can assist them but completely replacing them is much more complicated because these professions involve trust and human interaction. Maybe for certain decisions. But trust isn't only about accuracy. Suppose you're sitting in a hospital and you've just received bad news. You don't want a machine to simply give you a probability. You want someone who understands your emotions. The same applies to students. If students use AI to complete every assignment without understanding anything, they make it good marks but eventually struggle in an actual job. I think both points are valid. That's why rest-killing and proper support are important. Exactly. AI will definitely change the job market, but if we prepare properly, the benefits can outweigh the risks.",
+      "segments": [
+        {
+          "start": 84.08,
+          "end": 86.08,
+          "text": "My name is Priya."
+        },
+        {
+          "start": 86.08,
+          "end": 91.91999999999999,
+          "text": "I agree with that point, and I want to bring another aspect into the discussion."
+        },
+        {
+          "start": 91.91999999999999,
+          "end": 96.39999999999999,
+          "text": "The biggest problem is not necessarily AI itself."
+        },
+        {
+          "start": 96.39999999999999,
+          "end": 101.6,
+          "text": "The problem is whether people have the skills to work along with AI."
+        },
+        {
+          "start": 101.6,
+          "end": 106.03999999999999,
+          "text": "Someone who doesn't upgrade their skills may lose their job, while someone who knows"
+        },
+        {
+          "start": 106.04,
+          "end": 110.84,
+          "text": "how to use AI effectively may become more productive."
+        },
+        {
+          "start": 218.08,
+          "end": 221.12,
+          "text": "And there is also an education gap."
+        },
+        {
+          "start": 221.12,
+          "end": 229.20000000000002,
+          "text": "A student from a good college may have access to AI tools, courses, internships, and mentors."
+        },
+        {
+          "start": 229.20000000000002,
+          "end": 234.32000000000002,
+          "text": "But someone from a smaller town may not have the same opportunities."
+        },
+        {
+          "start": 234.32000000000002,
+          "end": 240.4,
+          "text": "So AI could potentially increase the gap between different sections of society."
+        },
+        {
+          "start": 282.72,
+          "end": 289.44,
+          "text": "Reskilling should depend on the profession. Exactly. We shouldn't tell everyone, learn"
+        },
+        {
+          "start": 289.44,
+          "end": 296.12,
+          "text": "AI or you will lose your job. The idea should be, learn how AI can improve the work you"
+        },
+        {
+          "start": 302.84,
+          "end": 311.56,
+          "text": "who can't. Of course. That's why individuals also have responsibility. We can't completely"
+        },
+        {
+          "start": 369.76,
+          "end": 372.76,
+          "text": "Can I add something here?"
+        },
+        {
+          "start": 372.76,
+          "end": 375.76,
+          "text": "We are mostly discussing white collar jobs."
+        },
+        {
+          "start": 375.76,
+          "end": 382.76,
+          "text": "What about jobs like teachers, doctors, lawyers, journalists, and managers?"
+        },
+        {
+          "start": 382.76,
+          "end": 392.76,
+          "text": "AI can assist them but completely replacing them is much more complicated because these professions involve trust and human interaction."
+        },
+        {
+          "start": 409.76,
+          "end": 412.76,
+          "text": "Maybe for certain decisions."
+        },
+        {
+          "start": 412.76,
+          "end": 416.76,
+          "text": "But trust isn't only about accuracy."
+        },
+        {
+          "start": 416.76,
+          "end": 421.76,
+          "text": "Suppose you're sitting in a hospital and you've just received bad news."
+        },
+        {
+          "start": 421.76,
+          "end": 425.76,
+          "text": "You don't want a machine to simply give you a probability."
+        },
+        {
+          "start": 425.76,
+          "end": 429.76,
+          "text": "You want someone who understands your emotions."
+        },
+        {
+          "start": 505.76,
+          "end": 508.76,
+          "text": "The same applies to students."
+        },
+        {
+          "start": 508.76,
+          "end": 513.76,
+          "text": "If students use AI to complete every assignment without understanding anything,"
+        },
+        {
+          "start": 513.76,
+          "end": 518.76,
+          "text": "they make it good marks but eventually struggle in an actual job."
+        },
+        {
+          "start": 564.76,
+          "end": 567.76,
+          "text": "I think both points are valid."
+        },
+        {
+          "start": 567.76,
+          "end": 572.76,
+          "text": "That's why rest-killing and proper support are important."
+        },
+        {
+          "start": 599.76,
+          "end": 609.76,
+          "text": "Exactly. AI will definitely change the job market, but if we prepare properly, the benefits can outweigh the risks."
+        }
+      ],
+      "audio": {
+        "source_file": "audio/gd_recording.mp3",
+        "segments": [
+          {
+            "start": 84.08,
+            "end": 86.08
+          },
+          {
+            "start": 86.08,
+            "end": 91.91999999999999
+          },
+          {
+            "start": 91.91999999999999,
+            "end": 96.39999999999999
+          },
+          {
+            "start": 96.39999999999999,
+            "end": 101.6
+          },
+          {
+            "start": 101.6,
+            "end": 106.03999999999999
+          },
+          {
+            "start": 106.04,
+            "end": 110.84
+          },
+          {
+            "start": 218.08,
+            "end": 221.12
+          },
+          {
+            "start": 221.12,
+            "end": 229.20000000000002
+          },
+          {
+            "start": 229.20000000000002,
+            "end": 234.32000000000002
+          },
+          {
+            "start": 234.32000000000002,
+            "end": 240.4
+          },
+          {
+            "start": 282.72,
+            "end": 289.44
+          },
+          {
+            "start": 289.44,
+            "end": 296.12
+          },
+          {
+            "start": 302.84,
+            "end": 311.56
+          },
+          {
+            "start": 369.76,
+            "end": 372.76
+          },
+          {
+            "start": 372.76,
+            "end": 375.76
+          },
+          {
+            "start": 375.76,
+            "end": 382.76
+          },
+          {
+            "start": 382.76,
+            "end": 392.76
+          },
+          {
+            "start": 409.76,
+            "end": 412.76
+          },
+          {
+            "start": 412.76,
+            "end": 416.76
+          },
+          {
+            "start": 416.76,
+            "end": 421.76
+          },
+          {
+            "start": 421.76,
+            "end": 425.76
+          },
+          {
+            "start": 425.76,
+            "end": 429.76
+          },
+          {
+            "start": 505.76,
+            "end": 508.76
+          },
+          {
+            "start": 508.76,
+            "end": 513.76
+          },
+          {
+            "start": 513.76,
+            "end": 518.76
+          },
+          {
+            "start": 564.76,
+            "end": 567.76
+          },
+          {
+            "start": 567.76,
+            "end": 572.76
+          },
+          {
+            "start": 599.76,
+            "end": 609.76
+          }
+        ]
+      },
+      "transcript": {
+        "full_text": "My name is Priya. I agree with that point, and I want to bring another aspect into the discussion. The biggest problem is not necessarily AI itself. The problem is whether people have the skills to work along with AI. Someone who doesn't upgrade their skills may lose their job, while someone who knows how to use AI effectively may become more productive. And there is also an education gap. A student from a good college may have access to AI tools, courses, internships, and mentors. But someone from a smaller town may not have the same opportunities. So AI could potentially increase the gap between different sections of society. Reskilling should depend on the profession. Exactly. We shouldn't tell everyone, learn AI or you will lose your job. The idea should be, learn how AI can improve the work you who can't. Of course. That's why individuals also have responsibility. We can't completely Can I add something here? We are mostly discussing white collar jobs. What about jobs like teachers, doctors, lawyers, journalists, and managers? AI can assist them but completely replacing them is much more complicated because these professions involve trust and human interaction. Maybe for certain decisions. But trust isn't only about accuracy. Suppose you're sitting in a hospital and you've just received bad news. You don't want a machine to simply give you a probability. You want someone who understands your emotions. The same applies to students. If students use AI to complete every assignment without understanding anything, they make it good marks but eventually struggle in an actual job. I think both points are valid. That's why rest-killing and proper support are important. Exactly. AI will definitely change the job market, but if we prepare properly, the benefits can outweigh the risks.",
+        "segments": [
+          {
+            "start": 84.08,
+            "end": 86.08,
+            "text": "My name is Priya."
+          },
+          {
+            "start": 86.08,
+            "end": 91.91999999999999,
+            "text": "I agree with that point, and I want to bring another aspect into the discussion."
+          },
+          {
+            "start": 91.91999999999999,
+            "end": 96.39999999999999,
+            "text": "The biggest problem is not necessarily AI itself."
+          },
+          {
+            "start": 96.39999999999999,
+            "end": 101.6,
+            "text": "The problem is whether people have the skills to work along with AI."
+          },
+          {
+            "start": 101.6,
+            "end": 106.03999999999999,
+            "text": "Someone who doesn't upgrade their skills may lose their job, while someone who knows"
+          },
+          {
+            "start": 106.04,
+            "end": 110.84,
+            "text": "how to use AI effectively may become more productive."
+          },
+          {
+            "start": 218.08,
+            "end": 221.12,
+            "text": "And there is also an education gap."
+          },
+          {
+            "start": 221.12,
+            "end": 229.20000000000002,
+            "text": "A student from a good college may have access to AI tools, courses, internships, and mentors."
+          },
+          {
+            "start": 229.20000000000002,
+            "end": 234.32000000000002,
+            "text": "But someone from a smaller town may not have the same opportunities."
+          },
+          {
+            "start": 234.32000000000002,
+            "end": 240.4,
+            "text": "So AI could potentially increase the gap between different sections of society."
+          },
+          {
+            "start": 282.72,
+            "end": 289.44,
+            "text": "Reskilling should depend on the profession. Exactly. We shouldn't tell everyone, learn"
+          },
+          {
+            "start": 289.44,
+            "end": 296.12,
+            "text": "AI or you will lose your job. The idea should be, learn how AI can improve the work you"
+          },
+          {
+            "start": 302.84,
+            "end": 311.56,
+            "text": "who can't. Of course. That's why individuals also have responsibility. We can't completely"
+          },
+          {
+            "start": 369.76,
+            "end": 372.76,
+            "text": "Can I add something here?"
+          },
+          {
+            "start": 372.76,
+            "end": 375.76,
+            "text": "We are mostly discussing white collar jobs."
+          },
+          {
+            "start": 375.76,
+            "end": 382.76,
+            "text": "What about jobs like teachers, doctors, lawyers, journalists, and managers?"
+          },
+          {
+            "start": 382.76,
+            "end": 392.76,
+            "text": "AI can assist them but completely replacing them is much more complicated because these professions involve trust and human interaction."
+          },
+          {
+            "start": 409.76,
+            "end": 412.76,
+            "text": "Maybe for certain decisions."
+          },
+          {
+            "start": 412.76,
+            "end": 416.76,
+            "text": "But trust isn't only about accuracy."
+          },
+          {
+            "start": 416.76,
+            "end": 421.76,
+            "text": "Suppose you're sitting in a hospital and you've just received bad news."
+          },
+          {
+            "start": 421.76,
+            "end": 425.76,
+            "text": "You don't want a machine to simply give you a probability."
+          },
+          {
+            "start": 425.76,
+            "end": 429.76,
+            "text": "You want someone who understands your emotions."
+          },
+          {
+            "start": 505.76,
+            "end": 508.76,
+            "text": "The same applies to students."
+          },
+          {
+            "start": 508.76,
+            "end": 513.76,
+            "text": "If students use AI to complete every assignment without understanding anything,"
+          },
+          {
+            "start": 513.76,
+            "end": 518.76,
+            "text": "they make it good marks but eventually struggle in an actual job."
+          },
+          {
+            "start": 564.76,
+            "end": 567.76,
+            "text": "I think both points are valid."
+          },
+          {
+            "start": 567.76,
+            "end": 572.76,
+            "text": "That's why rest-killing and proper support are important."
+          },
+          {
+            "start": 599.76,
+            "end": 609.76,
+            "text": "Exactly. AI will definitely change the job market, but if we prepare properly, the benefits can outweigh the risks."
+          }
+        ]
+      }
+    },
+    "Karen": {
+      "participant_id": "P5",
+      "name": "Karen",
+      "speaker_id": "SPEAKER_E",
+      "segment_count": 29,
+      "total_speaking_time": 132.26,
+      "full_text": "Karen this side. I actually disagree with the idea that AI is mostly an opportunity. For highly skilled people, yes, it can be an opportunity. But think about people working in entry-level jobs. Suppose a fresher is hired as a content writer, junior developer, or data analyst. These are exactly the kinds of roles where companies are increasingly using AI tools. So where will freshers get their first experience? But that's exactly the problem. Earlier a company might hire 10 junior developers and 2 senior developers. If AI increases productivity, maybe they hire 3 junior developers instead of 10. So even if AI doesn't completely replace developers, it can reduce the number of available positions. But reskilling sounds easier in theory than in reality. Imagine someone who has been working in a particular job for 15 years. Are we really expecting that person to suddenly learn machine learning or advance AI? already do. But companies might still prefer someone who can do the work with AI over someone But how much human judgment? If AI becomes accurate enough, companies will naturally try to reduce costs. But AI makes automation available to almost every industry. True. That's why I think we shouldn't underestimate the impact. But eventually people might trust AI if it becomes more accurate than humans. That's a good statement, but I would modify it slightly. People who know how to use AI will probably have an advantage over people who don't. But that doesn't mean everyone can simply learn one AI tool and be safe. That's already happening. Ideally, is the important word there. Companies may simply keep one person and remove two positions. True, but the transition can still be difficult for people who lose their jobs. And companies and governments also need to support people during this transition.",
+      "segments": [
+        {
+          "start": 110.84,
+          "end": 112.32000000000001,
+          "text": "Karen this side."
+        },
+        {
+          "start": 112.32000000000001,
+          "end": 117.48,
+          "text": "I actually disagree with the idea that AI is mostly an opportunity."
+        },
+        {
+          "start": 117.48,
+          "end": 122.12,
+          "text": "For highly skilled people, yes, it can be an opportunity."
+        },
+        {
+          "start": 122.12,
+          "end": 125.96000000000001,
+          "text": "But think about people working in entry-level jobs."
+        },
+        {
+          "start": 125.96000000000001,
+          "end": 132.3,
+          "text": "Suppose a fresher is hired as a content writer, junior developer, or data analyst."
+        },
+        {
+          "start": 132.3,
+          "end": 137.62,
+          "text": "These are exactly the kinds of roles where companies are increasingly using AI tools."
+        },
+        {
+          "start": 137.62,
+          "end": 141.3,
+          "text": "So where will freshers get their first experience?"
+        },
+        {
+          "start": 161.58,
+          "end": 164.18,
+          "text": "But that's exactly the problem."
+        },
+        {
+          "start": 164.18,
+          "end": 169.72000000000003,
+          "text": "Earlier a company might hire 10 junior developers and 2 senior developers."
+        },
+        {
+          "start": 169.72000000000003,
+          "end": 175.86,
+          "text": "If AI increases productivity, maybe they hire 3 junior developers instead of 10."
+        },
+        {
+          "start": 175.86,
+          "end": 182.66000000000003,
+          "text": "So even if AI doesn't completely replace developers, it can reduce the number of available positions."
+        },
+        {
+          "start": 249.72,
+          "end": 253.92000000000002,
+          "text": "But reskilling sounds easier in theory than in reality."
+        },
+        {
+          "start": 253.92000000000002,
+          "end": 258.44,
+          "text": "Imagine someone who has been working in a particular job for 15 years."
+        },
+        {
+          "start": 258.44,
+          "end": 264.44,
+          "text": "Are we really expecting that person to suddenly learn machine learning or advance AI?"
+        },
+        {
+          "start": 296.12,
+          "end": 302.84000000000003,
+          "text": "already do. But companies might still prefer someone who can do the work with AI over someone"
+        },
+        {
+          "start": 335.0,
+          "end": 337.2,
+          "text": "But how much human judgment?"
+        },
+        {
+          "start": 337.2,
+          "end": 343.52,
+          "text": "If AI becomes accurate enough, companies will naturally try to reduce costs."
+        },
+        {
+          "start": 353.0,
+          "end": 357.76,
+          "text": "But AI makes automation available to almost every industry."
+        },
+        {
+          "start": 357.76,
+          "end": 358.76,
+          "text": "True."
+        },
+        {
+          "start": 358.76,
+          "end": 362.76,
+          "text": "That's why I think we shouldn't underestimate the impact."
+        },
+        {
+          "start": 404.76,
+          "end": 409.76,
+          "text": "But eventually people might trust AI if it becomes more accurate than humans."
+        },
+        {
+          "start": 458.76,
+          "end": 462.76,
+          "text": "That's a good statement, but I would modify it slightly."
+        },
+        {
+          "start": 462.76,
+          "end": 467.76,
+          "text": "People who know how to use AI will probably have an advantage over people who don't."
+        },
+        {
+          "start": 467.76,
+          "end": 472.76,
+          "text": "But that doesn't mean everyone can simply learn one AI tool and be safe."
+        },
+        {
+          "start": 518.76,
+          "end": 520.76,
+          "text": "That's already happening."
+        },
+        {
+          "start": 542.76,
+          "end": 546.76,
+          "text": "Ideally, is the important word there."
+        },
+        {
+          "start": 546.76,
+          "end": 551.76,
+          "text": "Companies may simply keep one person and remove two positions."
+        },
+        {
+          "start": 558.76,
+          "end": 564.76,
+          "text": "True, but the transition can still be difficult for people who lose their jobs."
+        },
+        {
+          "start": 594.76,
+          "end": 599.76,
+          "text": "And companies and governments also need to support people during this transition."
+        }
+      ],
+      "audio": {
+        "source_file": "audio/gd_recording.mp3",
+        "segments": [
+          {
+            "start": 110.84,
+            "end": 112.32000000000001
+          },
+          {
+            "start": 112.32000000000001,
+            "end": 117.48
+          },
+          {
+            "start": 117.48,
+            "end": 122.12
+          },
+          {
+            "start": 122.12,
+            "end": 125.96000000000001
+          },
+          {
+            "start": 125.96000000000001,
+            "end": 132.3
+          },
+          {
+            "start": 132.3,
+            "end": 137.62
+          },
+          {
+            "start": 137.62,
+            "end": 141.3
+          },
+          {
+            "start": 161.58,
+            "end": 164.18
+          },
+          {
+            "start": 164.18,
+            "end": 169.72000000000003
+          },
+          {
+            "start": 169.72000000000003,
+            "end": 175.86
+          },
+          {
+            "start": 175.86,
+            "end": 182.66000000000003
+          },
+          {
+            "start": 249.72,
+            "end": 253.92000000000002
+          },
+          {
+            "start": 253.92000000000002,
+            "end": 258.44
+          },
+          {
+            "start": 258.44,
+            "end": 264.44
+          },
+          {
+            "start": 296.12,
+            "end": 302.84000000000003
+          },
+          {
+            "start": 335.0,
+            "end": 337.2
+          },
+          {
+            "start": 337.2,
+            "end": 343.52
+          },
+          {
+            "start": 353.0,
+            "end": 357.76
+          },
+          {
+            "start": 357.76,
+            "end": 358.76
+          },
+          {
+            "start": 358.76,
+            "end": 362.76
+          },
+          {
+            "start": 404.76,
+            "end": 409.76
+          },
+          {
+            "start": 458.76,
+            "end": 462.76
+          },
+          {
+            "start": 462.76,
+            "end": 467.76
+          },
+          {
+            "start": 467.76,
+            "end": 472.76
+          },
+          {
+            "start": 518.76,
+            "end": 520.76
+          },
+          {
+            "start": 542.76,
+            "end": 546.76
+          },
+          {
+            "start": 546.76,
+            "end": 551.76
+          },
+          {
+            "start": 558.76,
+            "end": 564.76
+          },
+          {
+            "start": 594.76,
+            "end": 599.76
+          }
+        ]
+      },
+      "transcript": {
+        "full_text": "Karen this side. I actually disagree with the idea that AI is mostly an opportunity. For highly skilled people, yes, it can be an opportunity. But think about people working in entry-level jobs. Suppose a fresher is hired as a content writer, junior developer, or data analyst. These are exactly the kinds of roles where companies are increasingly using AI tools. So where will freshers get their first experience? But that's exactly the problem. Earlier a company might hire 10 junior developers and 2 senior developers. If AI increases productivity, maybe they hire 3 junior developers instead of 10. So even if AI doesn't completely replace developers, it can reduce the number of available positions. But reskilling sounds easier in theory than in reality. Imagine someone who has been working in a particular job for 15 years. Are we really expecting that person to suddenly learn machine learning or advance AI? already do. But companies might still prefer someone who can do the work with AI over someone But how much human judgment? If AI becomes accurate enough, companies will naturally try to reduce costs. But AI makes automation available to almost every industry. True. That's why I think we shouldn't underestimate the impact. But eventually people might trust AI if it becomes more accurate than humans. That's a good statement, but I would modify it slightly. People who know how to use AI will probably have an advantage over people who don't. But that doesn't mean everyone can simply learn one AI tool and be safe. That's already happening. Ideally, is the important word there. Companies may simply keep one person and remove two positions. True, but the transition can still be difficult for people who lose their jobs. And companies and governments also need to support people during this transition.",
+        "segments": [
+          {
+            "start": 110.84,
+            "end": 112.32000000000001,
+            "text": "Karen this side."
+          },
+          {
+            "start": 112.32000000000001,
+            "end": 117.48,
+            "text": "I actually disagree with the idea that AI is mostly an opportunity."
+          },
+          {
+            "start": 117.48,
+            "end": 122.12,
+            "text": "For highly skilled people, yes, it can be an opportunity."
+          },
+          {
+            "start": 122.12,
+            "end": 125.96000000000001,
+            "text": "But think about people working in entry-level jobs."
+          },
+          {
+            "start": 125.96000000000001,
+            "end": 132.3,
+            "text": "Suppose a fresher is hired as a content writer, junior developer, or data analyst."
+          },
+          {
+            "start": 132.3,
+            "end": 137.62,
+            "text": "These are exactly the kinds of roles where companies are increasingly using AI tools."
+          },
+          {
+            "start": 137.62,
+            "end": 141.3,
+            "text": "So where will freshers get their first experience?"
+          },
+          {
+            "start": 161.58,
+            "end": 164.18,
+            "text": "But that's exactly the problem."
+          },
+          {
+            "start": 164.18,
+            "end": 169.72000000000003,
+            "text": "Earlier a company might hire 10 junior developers and 2 senior developers."
+          },
+          {
+            "start": 169.72000000000003,
+            "end": 175.86,
+            "text": "If AI increases productivity, maybe they hire 3 junior developers instead of 10."
+          },
+          {
+            "start": 175.86,
+            "end": 182.66000000000003,
+            "text": "So even if AI doesn't completely replace developers, it can reduce the number of available positions."
+          },
+          {
+            "start": 249.72,
+            "end": 253.92000000000002,
+            "text": "But reskilling sounds easier in theory than in reality."
+          },
+          {
+            "start": 253.92000000000002,
+            "end": 258.44,
+            "text": "Imagine someone who has been working in a particular job for 15 years."
+          },
+          {
+            "start": 258.44,
+            "end": 264.44,
+            "text": "Are we really expecting that person to suddenly learn machine learning or advance AI?"
+          },
+          {
+            "start": 296.12,
+            "end": 302.84000000000003,
+            "text": "already do. But companies might still prefer someone who can do the work with AI over someone"
+          },
+          {
+            "start": 335.0,
+            "end": 337.2,
+            "text": "But how much human judgment?"
+          },
+          {
+            "start": 337.2,
+            "end": 343.52,
+            "text": "If AI becomes accurate enough, companies will naturally try to reduce costs."
+          },
+          {
+            "start": 353.0,
+            "end": 357.76,
+            "text": "But AI makes automation available to almost every industry."
+          },
+          {
+            "start": 357.76,
+            "end": 358.76,
+            "text": "True."
+          },
+          {
+            "start": 358.76,
+            "end": 362.76,
+            "text": "That's why I think we shouldn't underestimate the impact."
+          },
+          {
+            "start": 404.76,
+            "end": 409.76,
+            "text": "But eventually people might trust AI if it becomes more accurate than humans."
+          },
+          {
+            "start": 458.76,
+            "end": 462.76,
+            "text": "That's a good statement, but I would modify it slightly."
+          },
+          {
+            "start": 462.76,
+            "end": 467.76,
+            "text": "People who know how to use AI will probably have an advantage over people who don't."
+          },
+          {
+            "start": 467.76,
+            "end": 472.76,
+            "text": "But that doesn't mean everyone can simply learn one AI tool and be safe."
+          },
+          {
+            "start": 518.76,
+            "end": 520.76,
+            "text": "That's already happening."
+          },
+          {
+            "start": 542.76,
+            "end": 546.76,
+            "text": "Ideally, is the important word there."
+          },
+          {
+            "start": 546.76,
+            "end": 551.76,
+            "text": "Companies may simply keep one person and remove two positions."
+          },
+          {
+            "start": 558.76,
+            "end": 564.76,
+            "text": "True, but the transition can still be difficult for people who lose their jobs."
+          },
+          {
+            "start": 594.76,
+            "end": 599.76,
+            "text": "And companies and governments also need to support people during this transition."
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.env
+__pycache__/
+.venv/
+
+# --- uv / Virtual Environments ---
+.venv/
+.uv/
+
+# --- Python Build & Caching ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# --- Testing & Code Quality ---
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- IDEs & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
