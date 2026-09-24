@@ -1,0 +1,186 @@
+{
+  "topic": "Impact of Artificial Intelligence on Employment",
+  "model": "qwen3.5:9b",
+  "speakers": {
+    "Rahul": {
+      "speaker_id": "SPEAKER_A",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "\"I am Rahul. I would like to start the discussion... So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans.\"",
+          "reason": "Initiated the discussion and provided a structured summary/conclusion."
+        },
+        "communication": {
+          "score": 9,
+          "evidence": "\"I think artificial intelligence is more of an opportunity than a threat to jobs... But I think companies will still need humans because AI generated output needs supervision.\"",
+          "reason": "Clear, polite, and coherent expression of ideas with effective transitions."
+        },
+        "leadership": {
+          "score": 7,
+          "evidence": "\"I am Rahul. I would like to start the discussion... So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans.\"",
+          "reason": "Explicitly claimed to start the discussion and guided the flow by offering a concluding summary."
+        },
+        "analytical_skill": {
+          "score": 8,
+          "evidence": "\"If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created... Yes, and that's why human judgment remains important.\"",
+          "reason": "Used historical analogy to support argument and distinguished between AI capabilities and human oversight needs."
+        },
+        "quantitative_knowledge": {
+          "score": 5,
+          "evidence": "\"number_of_quantitative_statements\": 0",
+          "reason": "No specific numbers or statistics were used; arguments relied on qualitative reasoning and examples."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "\"Take software development, for example... Yes, and that's why human judgment remains important. I agree, especially in healthcare.\"",
+          "reason": "Directly addressed the impact of AI on employment using relevant industry examples like software dev and healthcare."
+        },
+        "text_score": 7.667
+      }
+    },
+    "Sneha": {
+      "speaker_id": "SPEAKER_B",
+      "text_evaluation": {
+        "participation": {
+          "score": 7,
+          "evidence": "Sneha actively engages by agreeing with Rahul to some extent, raises the issue of quality and hallucinations, and concludes with a balanced view.",
+          "reason": "She contributes multiple distinct points but relies heavily on agreeing with others rather than introducing entirely new topics."
+        },
+        "communication": {
+          "score": 8,
+          "evidence": "Sneha here, I agree with Rahul to some extent, but I think the situation with AI is slightly different.",
+          "reason": "Clear opening and transitions. However, sentence structure is somewhat fragmented (e.g., 'depend on companies or governments.'), which slightly impacts flow."
+        },
+        "leadership": {
+          "score": 5,
+          "evidence": "That's why I said it's not automatically positive. The transition period could be painful.",
+          "reason": "She offers a critical perspective but does not steer the discussion or propose concrete solutions beyond general adaptation."
+        },
+        "analytical_skill": {
+          "score": 8,
+          "evidence": "Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform tasks related to writing, coding, designing, analysis, customer support, even decision-making to some extent.",
+          "reason": "Demonstrates strong reasoning by contrasting past and current technological impacts and identifying specific new roles."
+        },
+        "quantitative_knowledge": {
+          "score": 6,
+          "evidence": "Five or ten years ago, some of these roles either didn't exist or were much smaller.",
+          "reason": "Uses timeframes to contextualize growth but lacks specific data points, percentages, or statistical evidence."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "AI can generate content very quickly, but fast doesn't always mean good. There are problems with hallucinations, incorrect information, bias, and lack of context.",
+          "reason": "Directly addresses the impact on employment by discussing job quality, new roles, and the risks of AI-generated content."
+        },
+        "text_score": 7.167
+      }
+    },
+    "SPEAKER_C": {
+      "speaker_id": "SPEAKER_C",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "The participant addresses multiple points including job replacement definitions, skill adaptation, and productivity, contributing significantly to the discussion.",
+          "reason": "SPEAKER_C provides a structured response covering definition, examples, misconceptions, and future implications."
+        },
+        "communication": {
+          "score": 9,
+          "evidence": "\"But the number of new jobs may not necessarily be equal to the number of jobs lost.\"",
+          "reason": "Clear articulation of complex ideas with logical transitions between points."
+        },
+        "leadership": {
+          "score": 7,
+          "evidence": "\"I want to bring up one more point, productivity.\"",
+          "reason": "Takes initiative to introduce a new dimension (productivity) and guides the conversation toward skill development."
+        },
+        "analytical_skill": {
+          "score": 9,
+          "evidence": "\"Some jobs aren't valuable only because of the task they perform. They're valuable because of the human relationship involved.\"",
+          "reason": "Demonstrates strong reasoning by distinguishing between task-based and relationship-based job value, and contrasts AI's role with historical automation."
+        },
+        "quantitative_knowledge": {
+          "score": 6,
+          "evidence": "\"if a company previously needed 10 people for basic customer support, with AI maybe they need 5 people.\"",
+          "reason": "Uses hypothetical numbers to illustrate points effectively, though lacks broader statistical data or specific industry metrics."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "\"Companies always try to reduce costs. That's not something that started with AI. Automation has been doing that for decades.\"",
+          "reason": "Directly addresses the impact of AI on employment by contextualizing it within broader economic trends and automation history."
+        },
+        "text_score": 8.0
+      }
+    },
+    "Priya": {
+      "speaker_id": "SPEAKER_D",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "Priya brings another aspect into the discussion and asks to add something regarding white collar jobs.",
+          "reason": "She actively engages by introducing new points and seeking clarification on specific job sectors."
+        },
+        "communication": {
+          "score": 9,
+          "evidence": "My name is Priya. I agree with that point, and I want to bring another aspect into the discussion.",
+          "reason": "She clearly states her agreement and intent to contribute, using polite transitions like 'Exactly' and 'Can I add something here?'."
+        },
+        "leadership": {
+          "score": 6,
+          "evidence": "The idea should be, learn how AI can improve the work you who can't. Of course. That's why individuals also have responsibility.",
+          "reason": "She attempts to steer the conversation towards a balanced view on reskilling and individual responsibility, though she does not dominate the discussion."
+        },
+        "analytical_skill": {
+          "score": 9,
+          "evidence": "Suppose you're sitting in a hospital and you've just received bad news. You don't want a machine to simply give you a probability. You want someone who understands your emotions.",
+          "reason": "She uses hypothetical scenarios (hospital, students) to illustrate the limitations of AI in roles requiring trust and emotional intelligence."
+        },
+        "quantitative_knowledge": {
+          "score": 2,
+          "evidence": "text_features: number_of_quantitative_statements: 0",
+          "reason": "The transcript contains no numerical data, statistics, or quantitative comparisons; she relies entirely on qualitative arguments."
+        },
+        "topic_relevance": {
+          "score": 10,
+          "evidence": "AI will definitely change the job market, but if we prepare properly, the benefits can outweigh the risks.",
+          "reason": "Every point made directly addresses the impact of AI on employment, covering skills gaps, education inequality, and specific professions."
+        },
+        "text_score": 7.333
+      }
+    },
+    "Karen": {
+      "speaker_id": "SPEAKER_E",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "Karen actively engages by disagreeing with the initial premise and offering a counter-perspective on entry-level jobs.",
+          "reason": "She contributes a distinct viewpoint early on and sustains the discussion throughout."
+        },
+        "communication": {
+          "score": 9,
+          "evidence": "Karen this side. I actually disagree with the idea that AI is mostly an opportunity.",
+          "reason": "She clearly states her position and uses rhetorical questions to guide the listener's thinking effectively."
+        },
+        "leadership": {
+          "score": 6,
+          "evidence": "That's a good statement, but I would modify it slightly. People who know how to use AI will probably have an advantage over people who don't.",
+          "reason": "She attempts to refine others' points and steer the conversation toward nuance regarding skill adaptation."
+        },
+        "analytical_skill": {
+          "score": 8,
+          "evidence": "Earlier a company might hire 10 junior developers and 2 senior developers. If AI increases productivity, maybe they hire 3 junior developers instead of 10.",
+          "reason": "She constructs a logical cause-effect argument regarding hiring ratios and productivity changes."
+        },
+        "quantitative_knowledge": {
+          "score": 7,
+          "evidence": "Earlier a company might hire 10 junior developers and 2 senior developers. If AI increases productivity, maybe they hire 3 junior developers instead of 10.",
+          "reason": "She uses specific numbers (10, 2, 3) to illustrate her point about workforce reduction despite increased efficiency."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "Suppose a fresher is hired as a content writer, junior developer, or data analyst. These are exactly the kinds of roles where companies are increasingly using AI tools.",
+          "reason": "Her entire contribution focuses directly on the impact of AI on specific employment sectors mentioned in the topic."
+        },
+        "text_score": 7.833
+      }
+    }
+  }
+}
