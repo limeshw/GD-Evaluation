@@ -1,0 +1,186 @@
+{
+  "topic": "Impact of Artificial Intelligence on Employment",
+  "model": "qwen3.5:9b",
+  "speakers": {
+    "Rahul": {
+      "speaker_id": "SPEAKER_A",
+      "text_evaluation": {
+        "participation": {
+          "score": 9,
+          "evidence": "\"I am Rahul. I would like to start the discussion...\" and \"So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans.\"",
+          "reason": "The participant explicitly initiates the discussion and provides a structured conclusion, demonstrating active engagement."
+        },
+        "communication": {
+          "score": 8,
+          "evidence": "\"I think artificial intelligence is more of an opportunity than a threat to jobs... If we look at history, whenever technology is changed, some jobs disappeared, but new jobs were also created.\"",
+          "reason": "The participant uses clear transitions and logical connectors (\"Of course\", \"But\", \"So\") to present arguments coherently."
+        },
+        "leadership": {
+          "score": 8,
+          "evidence": "\"I am Rahul. I would like to start the discussion... So, in conclusion, AI should be treated as a tool to enhance human abilities, not simply as a replacement for humans.\"",
+          "reason": "The participant takes charge by starting the session and guiding the flow towards a concluding summary."
+        },
+        "analytical_skill": {
+          "score": 9,
+          "evidence": "\"Take software development, for example. AI can generate code, but someone still needs to understand the requirements, review the code, test it, and maintain the system... Yes, and that's why human judgment remains important.\"",
+          "reason": "The participant uses specific examples (software development, healthcare) to support cause-effect reasoning about AI limitations and human necessity."
+        },
+        "quantitative_knowledge": {
+          "score": 5,
+          "evidence": "\"AI will replace certain repetitive jobs...\" \"some jobs disappeared, but new jobs were also created.\"",
+          "reason": "The participant discusses job displacement and creation conceptually without citing specific statistics or numerical data."
+        },
+        "topic_relevance": {
+          "score": 10,
+          "evidence": "\"I think artificial intelligence is more of an opportunity than a threat to jobs... Instead of trying to stop AI, they should focus on reskilling people.\"",
+          "reason": "Every statement directly addresses the impact of AI on employment, covering opportunities, threats, historical context, and future solutions."
+        },
+        "text_score": 8.167
+      }
+    },
+    "Sneha": {
+      "speaker_id": "SPEAKER_B",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "Sneha actively engages with Rahul's points ('I agree with Rahul to some extent') and introduces multiple new dimensions including job creation roles and quality issues.",
+          "reason": "She builds on others' ideas while adding substantial content."
+        },
+        "communication": {
+          "score": 9,
+          "evidence": "The transcript shows clear transitions between topics using phrases like 'So the speed at which jobs can be affected might be much higher this time' and 'There's another issue I'd like to raise, quality.'",
+          "reason": "Her speech is coherent, well-structured, and easy to follow."
+        },
+        "leadership": {
+          "score": 7,
+          "evidence": "She synthesizes the discussion by stating 'So I think we can say that AI is neither completely an opportunity nor completely a threat. It depends on how we adapt to it.'",
+          "reason": "She attempts to summarize and provide a balanced conclusion to the debate."
+        },
+        "analytical_skill": {
+          "score": 8,
+          "evidence": "She contrasts past technologies with AI ('Earlier technologies mostly replaced physical or repetitive work, whereas AI can now perform tasks related to writing, coding...') and discusses cause-effect relationships regarding productivity and job reduction.",
+          "reason": "Demonstrates strong reasoning by comparing historical trends with current AI impacts."
+        },
+        "quantitative_knowledge": {
+          "score": 5,
+          "evidence": "She mentions specific roles ('AI engineers, machine learning engineers, prompt engineers') and timeframes ('Five or ten years ago'), but lacks statistical data.",
+          "reason": "Uses some quantitative references (timeframes, role counts) but no hard statistics."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "The entire contribution focuses on 'Impact of Artificial Intelligence on Employment', discussing job displacement, new roles, and skill adaptation.",
+          "reason": "Every point made directly relates to the GD topic."
+        },
+        "text_score": 7.667
+      }
+    },
+    "SPEAKER_C": {
+      "speaker_id": "SPEAKER_C",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "The participant contributes multiple distinct points including definitions, examples, and counter-arguments.",
+          "reason": "SPEAKER_C provides a substantial amount of content with clear structure, addressing the topic from multiple angles."
+        },
+        "communication": {
+          "score": 7,
+          "evidence": "\"A diffier here. I think we should first define what we mean by job replacement...\"",
+          "reason": "The participant attempts to clarify terms but starts with a fragmented sentence ('A diffier here') which slightly hinders clarity."
+        },
+        "leadership": {
+          "score": 6,
+          "evidence": "\"I want to bring up one more point, productivity. Suppose AI allows one employee to do the work of three employees...\"",
+          "reason": "The participant takes initiative to introduce a new dimension (productivity) and steer the discussion towards solutions."
+        },
+        "analytical_skill": {
+          "score": 9,
+          "evidence": "\"Because in many cases AI is not completely replacing a person. It's actually reducing the number of people required to perform a particular task...\"",
+          "reason": "The participant demonstrates strong reasoning by distinguishing between job replacement and reduction, using cause-effect logic regarding cost-cutting vs. automation history."
+        },
+        "quantitative_knowledge": {
+          "score": 7,
+          "evidence": "\"if a company previously needed 10 people for basic customer support, with AI maybe they need 5 people...\"",
+          "reason": "The participant uses specific numbers (10 people, 5 people) to illustrate the concept of job reduction effectively."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "\"Companies always try to reduce costs. That's not something that started with AI. Automation has been doing that for decades...\"",
+          "reason": "The entire contribution is tightly focused on the impact of AI on employment, addressing replacement, skill adaptation, and productivity."
+        },
+        "text_score": 7.667
+      }
+    },
+    "Priya": {
+      "speaker_id": "SPEAKER_D",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "Priya actively engages by saying 'I agree with that point, and I want to bring another aspect into the discussion' and asks 'Can I add something here?', showing willingness to contribute.",
+          "reason": "She initiates new points, agrees with others, and seeks permission to speak, indicating active involvement."
+        },
+        "communication": {
+          "score": 9,
+          "evidence": "Priya uses clear transitions like 'Exactly', 'So AI could potentially increase the gap', and 'That's why rest-killing and proper support are important.'",
+          "reason": "Her speech is coherent, well-structured, and she effectively summarizes points and connects ideas for the group."
+        },
+        "leadership": {
+          "score": 6,
+          "evidence": "Priya steers the conversation by asking 'What about jobs like teachers, doctors, lawyers, journalists, and managers?' and proposing a balanced view: 'I think both points are valid.'",
+          "reason": "She guides the discussion to cover different job sectors and synthesizes opposing views, demonstrating a leadership role in structuring the debate."
+        },
+        "analytical_skill": {
+          "score": 9,
+          "evidence": "Priya distinguishes between skill levels: 'Someone who doesn't upgrade their skills may lose their job, while someone who knows how to use AI effectively may become more productive.' She also contrasts white-collar with trust-based professions.",
+          "reason": "She provides cause-effect reasoning regarding skill gaps and offers nuanced comparisons between different types of jobs and the role of human interaction."
+        },
+        "quantitative_knowledge": {
+          "score": 5,
+          "evidence": "The transcript contains no numbers or statistics; she states 'AI will definitely change the job market' without citing data.",
+          "reason": "While her qualitative arguments are strong, she does not provide any quantitative evidence, statistics, or numerical examples to support her claims."
+        },
+        "topic_relevance": {
+          "score": 10,
+          "evidence": "Priya discusses 'Impact of Artificial Intelligence on Employment' by addressing skill gaps, education inequality, reskilling, and specific professions like doctors and teachers.",
+          "reason": "Every point she makes directly relates to how AI affects employment, covering both risks (job loss, inequality) and opportunities (productivity, assistance)."
+        },
+        "text_score": 7.833
+      }
+    },
+    "Karen": {
+      "speaker_id": "SPEAKER_E",
+      "text_evaluation": {
+        "participation": {
+          "score": 8,
+          "evidence": "Karen actively engages with the topic by presenting a counter-argument to the idea that AI is mostly an opportunity, stating 'I actually disagree with the idea that AI is mostly an opportunity.'",
+          "reason": "She contributes substantial content by challenging the optimistic view and focusing on entry-level job risks."
+        },
+        "communication": {
+          "score": 7,
+          "evidence": "Karen uses clear examples like 'Suppose a fresher is hired as a content writer, junior developer, or data analyst' to illustrate her points.",
+          "reason": "Her communication is effective in explaining complex shifts in hiring due to AI, though the transcript shows some fragmented sentence structures."
+        },
+        "leadership": {
+          "score": 5,
+          "evidence": "Karen suggests that 'Companies and governments also need to support people during this transition.'",
+          "reason": "She demonstrates leadership by proposing a solution-oriented conclusion regarding government and corporate responsibility."
+        },
+        "analytical_skill": {
+          "score": 8,
+          "evidence": "Karen analyzes the impact on entry-level workers: 'Earlier a company might hire 10 junior developers... If AI increases productivity, maybe they hire 3 junior developers instead of 10.'",
+          "reason": "She effectively uses cause-effect reasoning to show how AI reduces headcount even if it doesn't replace roles entirely."
+        },
+        "quantitative_knowledge": {
+          "score": 6,
+          "evidence": "Karen references specific numbers: 'hire 10 junior developers and 2 senior developers' and 'hire 3 junior developers instead of 10.'",
+          "reason": "She uses hypothetical quantitative scenarios to support her argument about reduced hiring needs."
+        },
+        "topic_relevance": {
+          "score": 9,
+          "evidence": "Karen directly addresses the topic with statements like 'But that's exactly the problem' regarding entry-level roles and 'AI makes automation available to almost every industry.'",
+          "reason": "Her entire contribution is tightly focused on the impact of AI on employment, specifically discussing job displacement and skill gaps."
+        },
+        "text_score": 7.167
+      }
+    }
+  }
+}
