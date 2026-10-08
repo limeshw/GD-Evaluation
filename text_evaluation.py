@@ -17,14 +17,23 @@ OLLAMA_MODEL = "qwen3.5:9b"
 
 OUTPUT_PATH = Path("text_evaluation.json")
 
-PARAMETERS = (
+# Parameters that always produce a numeric score.
+# "Not Demonstrated" is NOT valid for these — the schema forces score: integer.
+STANDARD_PARAMETERS = (
     "participation",
     "communication",
     "leadership",
     "analytical_skill",
-    "quantitative_knowledge",
     "topic_relevance",
 )
+
+# Parameters where "Not Demonstrated" + null score is allowed.
+OPTIONAL_PARAMETERS = (
+    "quantitative_knowledge",
+)
+
+# Keep insertion order: standard first, optional last (matches prompt order).
+PARAMETERS = STANDARD_PARAMETERS + OPTIONAL_PARAMETERS
 
 VALID_CONFIDENCE = {"high", "medium", "low"}
 
@@ -35,10 +44,42 @@ VALID_STATUS = {
 
 
 # ============================================================================
-# JSON SCHEMA SENT TO OLLAMA
+# JSON SCHEMAS SENT TO OLLAMA
 # ============================================================================
 
-PARAMETER_SCHEMA = {
+# Standard schema: score is always an integer 0-10.
+# No "status" field — Qwen cannot choose "Not Demonstrated" for these.
+STANDARD_PARAMETER_SCHEMA = {
+    "type": "object",
+    "required": [
+        "score",
+        "confidence",
+        "evidence",
+        "justification",
+    ],
+    "properties": {
+        "score": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10,
+        },
+        "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+        },
+        "evidence": {
+            "type": "string",
+            "maxLength": 300,
+        },
+        "justification": {
+            "type": "string",
+            "maxLength": 500,
+        },
+    },
+}
+
+# Optional schema: status + nullable score (quantitative_knowledge only).
+OPTIONAL_PARAMETER_SCHEMA = {
     "type": "object",
     "required": [
         "status",
@@ -50,30 +91,17 @@ PARAMETER_SCHEMA = {
     "properties": {
         "status": {
             "type": "string",
-            "enum": [
-                "Scored",
-                "Not Demonstrated",
-            ],
+            "enum": ["Scored", "Not Demonstrated"],
         },
         "score": {
             "anyOf": [
-                {
-                    "type": "integer",
-                    "minimum": 0,
-                    "maximum": 10,
-                },
-                {
-                    "type": "null",
-                },
+                {"type": "integer", "minimum": 0, "maximum": 10},
+                {"type": "null"},
             ]
         },
         "confidence": {
             "type": "string",
-            "enum": [
-                "high",
-                "medium",
-                "low",
-            ],
+            "enum": ["high", "medium", "low"],
         },
         "evidence": {
             "type": "string",
@@ -91,8 +119,8 @@ EVALUATION_SCHEMA = {
     "type": "object",
     "required": list(PARAMETERS),
     "properties": {
-        parameter: PARAMETER_SCHEMA
-        for parameter in PARAMETERS
+        **{p: STANDARD_PARAMETER_SCHEMA for p in STANDARD_PARAMETERS},
+        **{p: OPTIONAL_PARAMETER_SCHEMA for p in OPTIONAL_PARAMETERS},
     },
 }
 
@@ -272,6 +300,25 @@ Evaluate exactly these six parameters:
 4. analytical_skill
 5. quantitative_knowledge
 6. topic_relevance
+
+
+============================================================
+CRITICAL SCORING RULE
+============================================================
+
+Parameters 1, 2, 3, 4, and 6 (participation, communication,
+leadership, analytical_skill, topic_relevance) MUST ALWAYS
+produce a numeric score from 0 to 10.
+
+They do NOT have a "Not Demonstrated" option.
+
+Even if the evidence is weak, assign a low numeric score
+(e.g. 1, 2, or 3). Never leave these as null.
+
+"Not Demonstrated" with a null score is ONLY allowed for
+parameter 5 (quantitative_knowledge), and only when the
+participant's contribution contains absolutely no numbers,
+statistics, or quantitative evidence.
 
 
 ============================================================
@@ -777,55 +824,61 @@ def validate_parameter(
     transcript: str,
 ) -> dict:
 
-    if not isinstance(item, dict):
+    is_optional = parameter in OPTIONAL_PARAMETERS
 
+    if not isinstance(item, dict):
         fail(
             f"Evaluation for '{parameter}' "
             f"({participant}) is not an object."
         )
 
-    status = item.get("status")
     score = item.get("score")
     confidence = item.get("confidence")
     evidence = item.get("evidence")
     justification = item.get("justification")
 
     # ------------------------------------------------------------
-    # Status
+    # Status + Score
+    # Standard parameters: no status field, score must be int 0-10.
+    # Optional parameters (quantitative_knowledge): status + nullable score.
     # ------------------------------------------------------------
 
-    if status not in VALID_STATUS:
-
-        fail(
-            f"Invalid status for '{parameter}' "
-            f"({participant}): {status!r}"
-        )
-
-    # ------------------------------------------------------------
-    # Score
-    # ------------------------------------------------------------
-
-    if status == "Scored":
-
+    if is_optional:
+        # quantitative_knowledge — status is required.
+        status = item.get("status")
+        if status not in VALID_STATUS:
+            fail(
+                f"Invalid status for '{parameter}' "
+                f"({participant}): {status!r}"
+            )
+        if status == "Scored":
+            if (
+                isinstance(score, bool)
+                or not isinstance(score, int)
+                or not 0 <= score <= 10
+            ):
+                fail(
+                    f"Invalid score for '{parameter}' ({participant}). "
+                    f"Expected integer 0-10, got {score!r}"
+                )
+        elif status == "Not Demonstrated":
+            if score is not None:
+                fail(
+                    f"'{parameter}' for {participant} is "
+                    f"'Not Demonstrated' but score is not null."
+                )
+    else:
+        # Standard parameters — always scored, no status field in schema.
+        # Normalise to "Scored" for consistent output structure.
+        status = "Scored"
         if (
             isinstance(score, bool)
             or not isinstance(score, int)
             or not 0 <= score <= 10
         ):
-
             fail(
-                f"Invalid score for '{parameter}' "
-                f"({participant}). "
+                f"Invalid score for '{parameter}' ({participant}). "
                 f"Expected integer 0-10, got {score!r}"
-            )
-
-    elif status == "Not Demonstrated":
-
-        if score is not None:
-
-            fail(
-                f"'{parameter}' for {participant} is "
-                f"'Not Demonstrated' but score is not null."
             )
 
     # ------------------------------------------------------------
@@ -833,45 +886,36 @@ def validate_parameter(
     # ------------------------------------------------------------
 
     if confidence not in VALID_CONFIDENCE:
-
         fail(
             f"Invalid confidence for '{parameter}' "
             f"({participant}): {confidence!r}"
         )
 
     # ------------------------------------------------------------
-    # Evidence
+    # Evidence  (soft validation — mismatch is a warning, not abort)
     # ------------------------------------------------------------
 
     if (
         not isinstance(evidence, str)
         or not evidence.strip()
     ):
-
         fail(
             f"Missing evidence for '{parameter}' "
             f"({participant})."
         )
 
     evidence = evidence.strip()
+    evidence_unverified = False
 
-    # Allow the explicit fallback.
-    if (
-        evidence
-        != "Insufficient direct evidence in transcript."
-    ):
-
-        if not evidence_exists_in_transcript(
-            evidence,
-            transcript,
-        ):
-
-            fail(
-                f"Evidence validation failed for "
-                f"'{parameter}' ({participant}).\n"
-                f"The evidence is not found as a direct "
-                f"quote in the participant transcript.\n"
-                f"Evidence: {evidence}"
+    if evidence != "Insufficient direct evidence in transcript.":
+        if not evidence_exists_in_transcript(evidence, transcript):
+            # The model slightly rephrased or merged lines.
+            # Log a warning but keep the score — do NOT abort.
+            evidence_unverified = True
+            print(
+                f"  Warning: evidence quote not found verbatim for "
+                f"'{parameter}' ({participant}). Score kept.",
+                file=sys.stderr,
             )
 
     # ------------------------------------------------------------
@@ -882,19 +926,21 @@ def validate_parameter(
         not isinstance(justification, str)
         or not justification.strip()
     ):
-
         fail(
             f"Missing justification for '{parameter}' "
             f"({participant})."
         )
 
-    return {
+    result = {
         "status": status,
         "score": score,
         "confidence": confidence,
         "evidence": evidence,
         "justification": justification.strip(),
     }
+    if evidence_unverified:
+        result["evidence_unverified"] = True
+    return result
 
 
 # ============================================================================
