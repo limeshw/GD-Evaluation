@@ -42,7 +42,7 @@ def extract_introduced_name(text: str) -> str | None:
     return None
 
 
-def initial_text_by_speaker(output: dict, max_segments: int = 4) -> dict[str, str]:
+def initial_text_by_speaker(output: dict, max_segments: int = 8) -> dict[str, str]:
     first_segments: dict[str, list[dict]] = {}
     for segment in sorted(output.get("segments", []), key=lambda item: item.get("start", 0)):
         speaker = str(segment.get("speaker", "UNKNOWN"))

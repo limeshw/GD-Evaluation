@@ -90,8 +90,6 @@ def build_speaker_wise_transcript(transcript: dict, audio_path: Path) -> dict:
             "speaker_id": ids_by_speaker[speaker],
             "segment_count": len(segments),
             "total_speaking_time": round(speaking_time, 3),
-            "full_text": full_text,
-            "segments": segments,
             "audio": {
                 "source_file": source_file,
                 "segments": [

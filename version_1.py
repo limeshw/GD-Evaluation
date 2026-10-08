@@ -128,6 +128,9 @@ def run_diarization(pipeline, audio_path: Path):
     except Exception as exc:
         fail(f"Failed to run diarization: {exc.__class__.__name__}: {exc}")
 
+    # Pyannote Community-1 returns a dict-like object whose diarization result
+    # is stored under one of two attribute names depending on the pipeline version.
+    # We probe both in order of preference; if neither exists the pipeline failed.
     annotation = getattr(output, "exclusive_speaker_diarization", None)
     if annotation is None:
         annotation = getattr(output, "speaker_diarization", None)

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import tempfile
 from pathlib import Path
 
 import streamlit as st
@@ -40,12 +39,10 @@ if uploaded_audio is not None and st.button("Transcribe", type="primary"):
         uploaded_bytes = uploaded_audio.getvalue()
         saved_audio_path.write_bytes(uploaded_bytes)
 
-        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as temporary_file:
-            temporary_file.write(uploaded_bytes)
-            temporary_path = Path(temporary_file.name)
-
+        # Pass the already-saved path directly — process_audio handles its own
+        # internal temp WAV normalization and cleanup via version_1.normalize_audio.
         with st.spinner("Running diarization and transcription..."):
-            output = process_audio(temporary_path)
+            output = process_audio(saved_audio_path)
 
         Path("transcript.json").write_text(
             json.dumps(output, indent=2, ensure_ascii=True) + "\n",
@@ -71,8 +68,5 @@ if uploaded_audio is not None and st.button("Transcribe", type="primary"):
         st.error(str(exc))
     except Exception as exc:
         st.error(f"Unexpected error: {exc.__class__.__name__}: {exc}")
-    finally:
-        if "temporary_path" in locals():
-            temporary_path.unlink(missing_ok=True)
 else:
     st.info("Choose an audio file, then click Transcribe.")

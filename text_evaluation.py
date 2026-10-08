@@ -196,6 +196,12 @@ def normalize_text(text: str) -> str:
 
     text = text.strip()
 
+    # Normalize Unicode/curly quotes to straight ASCII equivalents.
+    # Whisper and the LLM may use different quote characters for the same text.
+    text = text.replace("\u201c", '"').replace("\u201d", '"')
+    text = text.replace("\u2018", "'").replace("\u2019", "'")
+    text = text.replace("\u2032", "'").replace("\u2033", '"')
+
     # Remove surrounding quotation marks.
     text = text.strip("\"'")
 
@@ -1132,23 +1138,40 @@ def main() -> int:
                     "data must be an object."
                 )
 
-            evaluation = evaluate_participant(
-                topic,
-                participant,
-                participant_data,
-            )
-
-            output["speakers"][
-                participant
-            ] = {
-                "speaker_id": str(
-                    participant_data.get(
-                        "speaker_id",
-                        participant,
-                    )
-                ),
-                "text_evaluation": evaluation,
-            }
+            try:
+                evaluation = evaluate_participant(
+                    topic,
+                    participant,
+                    participant_data,
+                )
+                output["speakers"][
+                    participant
+                ] = {
+                    "speaker_id": str(
+                        participant_data.get(
+                            "speaker_id",
+                            participant,
+                        )
+                    ),
+                    "text_evaluation": evaluation,
+                }
+            except ValueError as exc:
+                print(
+                    f"\n  Warning: Evaluation failed for '{participant}': {exc}",
+                    file=sys.stderr,
+                )
+                output["speakers"][
+                    participant
+                ] = {
+                    "speaker_id": str(
+                        participant_data.get(
+                            "speaker_id",
+                            participant,
+                        )
+                    ),
+                    "text_evaluation": None,
+                    "evaluation_error": str(exc),
+                }
 
         # ------------------------------------------------------------
         # Write output

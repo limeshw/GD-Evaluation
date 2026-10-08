@@ -122,7 +122,6 @@ def build_text_features(speaker_wise: dict, nlp, embedding_model) -> tuple[list[
                 ),
                 "unique_word_count": unique_words,
                 "ttr": ttr,
-                "lexical_diversity": ttr,
                 "mtld": mtld_value(clean_text, LexicalRichness),
                 **numeric_features(doc, sentences),
             }
